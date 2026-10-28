@@ -1,0 +1,63 @@
+# Add mods: put Modrinth slugs in add-mods.txt (one per line, e.g. "fallingtree"), commit and push (or edit the file on
+# GitHub). This adds each one with packwiz (the 1.21.1 NeoForge file, plus any libraries it needs), refreshes the
+# index, empties add-mods.txt, commits, and asks GitHub Pages to publish. Handy when packwiz isn't at hand.
+name: Add mods
+
+on:
+  push:
+    branches: [main]
+    paths: [add-mods.txt]
+  workflow_dispatch:
+
+permissions:
+  contents: write # to push the added mods
+  pages: write # to ask GitHub Pages to publish them
+
+jobs:
+  add:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: 'stable'
+          cache: false # nothing to cache: this repo has no Go code of its own
+
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Add the mods
+        run: |
+          touch add-mods.txt
+          added=""
+          while IFS= read -r slug || [ -n "$slug" ]; do
+            slug="$(echo "$slug" | tr -d '\r' | xargs)"
+            [ -z "$slug" ] && continue
+            case "$slug" in \#*) continue ;; esac
+            echo "::group::Adding $slug"
+            packwiz modrinth add "$slug" -y
+            echo "::endgroup::"
+            added="$added $slug"
+          done < add-mods.txt
+          : > add-mods.txt
+          packwiz refresh
+          echo "ADDED=${added# }" >> "$GITHUB_ENV"
+
+      - name: Commit and publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Nothing to add."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Add ${ADDED:-mods}"
+          git push
+          # A push made with the workflow's own token may not start a Pages build by itself, so ask for one.
+          gh api -X POST "repos/$GITHUB_REPOSITORY/pages/builds"
