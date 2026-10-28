@@ -1,12 +1,14 @@
 # Gamerflix
 
-The Gamerflix modpack: Minecraft 1.21.1 with NeoForge, about 85 mods (plus the libraries they need). The full list
-with what each mod is for is at [riggs.one/gamerflix-modpack](https://riggs.one/gamerflix-modpack).
+The Gamerflix modpack: Minecraft 1.21.1 with NeoForge 21.1.265, 93 mods (136 files with the libraries they need).
+The full list with what each mod is for is at [riggs.one/gamerflix-modpack](https://riggs.one/gamerflix-modpack).
 
 You install it once. After that, every time you press Play the launcher checks for changes to the pack and downloads
 them, so you're always on the same mods as the server.
 
 ## Installing (players)
+
+The same steps are on [riggs.one/gamerflix-modpack](https://riggs.one/gamerflix-modpack/#install).
 
 1. **Install Prism Launcher** from [prismlauncher.org](https://prismlauncher.org/download/) (on Windows, the
    "Setup" installer is easiest).
@@ -16,8 +18,8 @@ them, so you're always on the same mods as the server.
    Don't unzip it.
 4. **Import it:** in Prism, click **Add Instance**, choose **Import** on the left, pick `Gamerflix.zip` and click
    **OK**. A "Gamerflix" instance appears.
-5. **Check its memory (RAM):** right-click Gamerflix, **Edit**, **Settings**, **Java**. It's set to use up to 8 GB
-   (8192 MiB). That's right for a PC with 16 GB or more. With 8 GB in total, set the maximum to 6144.
+5. **Check its memory (RAM):** it's set to use up to 8 GB (8192 MiB). If your PC has 16 GB of RAM or less, lower
+   it to 6144: right-click Gamerflix, **Edit**, **Settings**, **Java**, **Memory**.
 6. **Play:** double-click Gamerflix. If Prism asks to download Java, say yes. The first launch downloads every mod
    (a small window shows the progress), so it takes a while; later launches only fetch what changed.
 
@@ -32,7 +34,7 @@ downloaded (check your internet and try again). For anything else, send Cameron 
 This repo is a [packwiz](https://packwiz.infra.link/) pack. `pack.toml` names the Minecraft and NeoForge versions,
 `mods/` has one small `.pw.toml` file per mod (where to download it, its checksum, and whether it's for the client,
 the server or both), and `index.toml` lists every file with its checksum. GitHub Pages serves the repo at
-**https://cameronriggs.github.io/gamerflix-pack/pack.toml**, the pack URL.
+**<https://cameronriggs.github.io/gamerflix-pack/pack.toml>**, the pack URL.
 
 The Prism instance runs `packwiz-installer-bootstrap.jar` before every launch (Edit, Settings, Custom commands,
 "Pre-launch command"). It reads the pack URL and downloads whatever changed. The server does the same with:
