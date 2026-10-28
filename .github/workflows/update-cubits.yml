@@ -24,6 +24,7 @@ jobs:
         uses: actions/setup-go@v5
         with:
           go-version: 'stable'
+          cache: false # nothing to cache: this repo has no Go code of its own
 
       - name: Install packwiz
         run: go install github.com/packwiz/packwiz@latest
