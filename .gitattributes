@@ -1,0 +1,2 @@
+# packwiz hashes every file, so git must never change line endings.
+* -text

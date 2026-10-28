@@ -1,0 +1,13 @@
+name = "MINT Lib"
+filename = "mint_lib-0.5.1-1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/dNaBx7Ep/versions/evgxTWdT/mint_lib-0.5.1-1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "6007f360941c2e17b21dacc5e2f35f791edcce4254332c17d5ec84f341deca63d67203eb365baae25804a3bc6832f4265bb1f25692183f50ede2dd6e6b1a2808"
+
+[update]
+[update.modrinth]
+mod-id = "dNaBx7Ep"
+version = "evgxTWdT"

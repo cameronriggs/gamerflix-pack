@@ -1,0 +1,6 @@
+# Files in this repo that aren't part of the pack itself (gitignore syntax).
+README.md
+.nojekyll
+.github/
+instance/
+.gitattributes

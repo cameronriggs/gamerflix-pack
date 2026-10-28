@@ -1,0 +1,13 @@
+name = "ae2helpers"
+filename = "ae2helpers-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NkrWGiBU/versions/lP1rypeP/ae2helpers-1.0.1.jar"
+hash-format = "sha512"
+hash = "284fbd8504d644df7026cb64ecd6324c161da98246021bbe6f0cd0285419fd1fb8ceb7fbf040b23f24274271ccfcd3829a6a3c27a5a6aa16a7cf9dc907a53211"
+
+[update]
+[update.modrinth]
+mod-id = "NkrWGiBU"
+version = "lP1rypeP"

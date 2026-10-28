@@ -1,0 +1,54 @@
+# Update Cubits: takes the newest Cubits from Modrinth into the pack, refreshes the index and commits if anything
+# changed. Runs every hour and by hand (Actions tab, "Update Cubits", "Run workflow"), so a Cubits release reaches the
+# pack, and every player's next launch, on its own.
+# While Cubits is still a jar in mods/ (before Modrinth approved the project) there's nothing to update and it says so.
+name: Update Cubits
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 * * * *' # every hour, at 23 minutes past
+
+permissions:
+  contents: write # to push the update
+  pages: write # to ask GitHub Pages to publish it
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: 'stable'
+
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Update Cubits
+        run: |
+          if [ ! -f mods/cubits.pw.toml ]; then
+            echo "::notice::Cubits isn't from Modrinth yet (it's a jar in mods/), so there's nothing to update."
+            exit 0
+          fi
+          packwiz update cubits -y
+          packwiz refresh
+
+      - name: Commit and publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Cubits is already the newest version."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Update Cubits to $(grep -m1 '^filename' mods/cubits.pw.toml | cut -d'"' -f2)"
+          git push
+          # A push made with the workflow's own token may not start a Pages build by itself, so ask for one.
+          gh api -X POST "repos/$GITHUB_REPOSITORY/pages/builds"
