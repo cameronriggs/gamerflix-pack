@@ -1,0 +1,51 @@
+# Build instance: puts the newest packwiz-installer.jar inside the Prism instance and rebuilds instance/Gamerflix.zip.
+# With the installer already there, a launch never has to reach api.github.com (the bootstrap is told not to update
+# itself with --bootstrap-no-update), so players whose PCs can't reach GitHub's API still sync the pack.
+# Runs when the instance source or this file changes, and by hand from the Actions tab.
+name: Build instance
+
+on:
+  push:
+    branches: [main]
+    paths: ['instance/src/**', '.github/workflows/build-instance.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write # to push the rebuilt zip
+  pages: write # to ask GitHub Pages to publish it
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Add packwiz-installer.jar to the instance
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release download --repo packwiz/packwiz-installer --pattern 'packwiz-installer.jar' \
+            --dir instance/src/Gamerflix/.minecraft --clobber
+          ls -la instance/src/Gamerflix/.minecraft
+
+      - name: Rebuild Gamerflix.zip
+        run: |
+          rm -f instance/Gamerflix.zip
+          (cd instance/src && zip -r -X ../Gamerflix.zip Gamerflix)
+          unzip -l instance/Gamerflix.zip
+
+      - name: Commit and publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "The instance is already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Rebuild Gamerflix.zip with packwiz-installer.jar inside"
+          git push
+          gh api -X POST "repos/$GITHUB_REPOSITORY/pages/builds"
