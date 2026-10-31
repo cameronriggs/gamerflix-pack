@@ -1,5 +1,5 @@
-# Add mods: put Modrinth slugs in add-mods.txt (one per line, e.g. "fallingtree"), commit and push (or edit the file on
-# GitHub). This adds each one with packwiz (the 1.21.1 NeoForge file, plus any libraries it needs), refreshes the
+# Add mods: put Modrinth slugs in add-mods.txt (one per line, e.g. "fallingtree"), or a CurseForge page URL for mods
+# that aren't on Modrinth, commit and push (or edit the file on GitHub). This adds each one with packwiz (the 1.21.1 NeoForge file, plus any libraries it needs), refreshes the
 # index, empties add-mods.txt, commits, and asks GitHub Pages to publish. Handy when packwiz isn't at hand.
 name: Add mods
 
@@ -38,7 +38,10 @@ jobs:
             [ -z "$slug" ] && continue
             case "$slug" in \#*) continue ;; esac
             echo "::group::Adding $slug"
-            packwiz modrinth add "$slug" -y
+            case "$slug" in
+              *curseforge.com/*) packwiz curseforge add "$slug" -y ;;
+              *) packwiz modrinth add "$slug" -y ;;
+            esac
             echo "::endgroup::"
             added="$added $slug"
           done < add-mods.txt
