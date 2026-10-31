@@ -181,6 +181,11 @@ hash = "50f0fe22bec82ed6336a259931394271a1ebb71bb77e682ee233d96134305ccd"
 metafile = true
 
 [[files]]
+file = "mods/crafting-station-jei-edition-updated.pw.toml"
+hash = "fbea2f4047fed0a1bfce77c705f3e7b871d8075ce2a4ff756c7e21e3a6786b96"
+metafile = true
+
+[[files]]
 file = "mods/cristel-lib.pw.toml"
 hash = "08a334ae5565e122d26b819cba16ce784776a10fe100ab2b22de72a5a2bac653"
 metafile = true
