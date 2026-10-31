@@ -1,0 +1,13 @@
+name = "AutoTools"
+filename = "autotools-neoforge-3.4.3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/zgVJyCgK/versions/Dz9ka1AS/autotools-neoforge-3.4.3.jar"
+hash-format = "sha512"
+hash = "0957a364af9a27788fa8ac5f9bd70d547b8320094f6ae00a25575bcfd596c8eafcac1f2a2a08194460665f19ea0910c2ce27cf0d9c4cb402548a98bbccf4863b"
+
+[update]
+[update.modrinth]
+mod-id = "zgVJyCgK"
+version = "Dz9ka1AS"

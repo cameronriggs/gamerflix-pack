@@ -86,6 +86,11 @@ hash = "f54cf71372645810ce22b0ba68e706139565437150e4cfd22bde4c14606099c4"
 metafile = true
 
 [[files]]
+file = "mods/autoswap.pw.toml"
+hash = "6d5d332f4b7074d387f82e40dbcd9e24303cb5fea2f0899c9e5037270a9ffb24"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "603cdc47142b5aa5729cbbf265a473574c9e2b55561de4318e9842d3d4b3b995"
 metafile = true
@@ -422,6 +427,11 @@ metafile = true
 [[files]]
 file = "mods/minecolonies.pw.toml"
 hash = "99a91f1e1c59b585f0d64ee30290fbb8a176ba194fd411c1cbddefccb12100d9"
+metafile = true
+
+[[files]]
+file = "mods/minecraft_autotools.pw.toml"
+hash = "86cdb1db0422c3c6644bed00c95abe9e977871d9c1fd9b81ced82b25ec91b3ff"
 metafile = true
 
 [[files]]

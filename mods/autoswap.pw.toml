@@ -1,0 +1,13 @@
+name = "AutoSwap"
+filename = "autoswap-neoforge-1.21.1-1.5.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/5L23JpyR/versions/8dQkIaoZ/autoswap-neoforge-1.21.1-1.5.2.jar"
+hash-format = "sha512"
+hash = "897edcbe98960e55034ca07e30378fdd3c6a9060cb4070a84fc48af7a093c92b73cedd7e810f5598509e87d70f20edd1cfcb8d96eb2e20cf052d0d0a6283214e"
+
+[update]
+[update.modrinth]
+mod-id = "5L23JpyR"
+version = "8dQkIaoZ"
