@@ -186,6 +186,11 @@ hash = "fbea2f4047fed0a1bfce77c705f3e7b871d8075ce2a4ff756c7e21e3a6786b96"
 metafile = true
 
 [[files]]
+file = "mods/creativecore.pw.toml"
+hash = "e731242bf8430d501714cc752b3e54056e110863c75034dc0649e10af339fb57"
+metafile = true
+
+[[files]]
 file = "mods/cristel-lib.pw.toml"
 hash = "08a334ae5565e122d26b819cba16ce784776a10fe100ab2b22de72a5a2bac653"
 metafile = true
@@ -327,6 +332,11 @@ metafile = true
 [[files]]
 file = "mods/irons-spells-n-spellbooks.pw.toml"
 hash = "4623bbc102dd3b7648a96569a1ab49b868774d46355b305ac40c4c79ad1c74e2"
+metafile = true
+
+[[files]]
+file = "mods/itemphysic-lite.pw.toml"
+hash = "afc55c02b755806f70481e74e6b61cebb994cad701a843c6e17e253dfb445fb5"
 metafile = true
 
 [[files]]
