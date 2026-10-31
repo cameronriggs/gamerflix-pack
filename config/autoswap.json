@@ -1,0 +1,21 @@
+{
+  "modEnabled": true,
+  "elytraDoubleJump": true,
+  "replaceBrokenElytra": true,
+  "replaceBrokenArmor": true,
+  "replaceBrokenTotem": true,
+  "autoSelectTool": false,
+  "keepToolWhileSneaking": true,
+  "autoSelectWeapon": false,
+  "keepWeaponOnEntity": true,
+  "keepSameToolType": true,
+  "replaceBrokenMainhand": true,
+  "refillTorch": true,
+  "refillBlocks": true,
+  "restoreSlotAfterAutoTool": false,
+  "doubleJumpWindowMs": 260,
+  "offhandItems": [
+    "minecraft:totem_of_undying"
+  ],
+  "toolSwitchBlacklist": []
+}

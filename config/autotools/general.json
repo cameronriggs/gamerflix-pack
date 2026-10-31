@@ -1,0 +1,33 @@
+{
+  "toggle": true,
+  "disableCreative": true,
+  "keepSlot": false,
+  "hotbarOnly": false,
+  "preferHotbarTool": true,
+  "preferLowDurability": false,
+  "preserveDurability": true,
+  "alwaysPreferFortune": false,
+  "onlySwitchIfNecessary": false,
+  "switchBack": false,
+  "showDPS": false,
+  "changeForEntities": true,
+  "keepAxe": false,
+  "preferSilkTouch": "except_ores",
+  "enabled": "always",
+  "ignoredSlots": [],
+  "targetSlots": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "ignoredInventorySlots": [],
+  "minDurability": 0.0,
+  "durabilityCheck": true,
+  "experimentalBreakDelay": false
+}

@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/autoswap.json"
+hash = "094af5bad4fb5320d97a6b748386323a609f98cd9139f9ac00caa66b84570378"
+
+[[files]]
+file = "config/autotools/general.json"
+hash = "11164b5e14328556d89ee6ee70c9ffeb8f6e6ba5663f39438b6c8ba9183cd91f"
+
+[[files]]
 file = "mods/advancedae.pw.toml"
 hash = "44791600b6d51fed024525689166334f8e3bc97cce2acef9190f244319ea6cf8"
 metafile = true
