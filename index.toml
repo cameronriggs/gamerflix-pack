@@ -355,6 +355,11 @@ hash = "2b5a01588ed784a5cb3d2222b8a52e6befd3da08bdde52af752c4786ce92e182"
 metafile = true
 
 [[files]]
+file = "mods/leaderboards.pw.toml"
+hash = "36556dec4313e74c6f87c027a958ed63d9f106b9554c6ddf2638d51e6c347d16"
+metafile = true
+
+[[files]]
 file = "mods/lootr.pw.toml"
 hash = "0d3683a8c533e1fb67bf0b1668089a322fc5f594f9610d441657378ab4f64383"
 metafile = true
