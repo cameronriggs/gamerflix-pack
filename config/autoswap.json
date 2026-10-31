@@ -4,7 +4,7 @@
   "replaceBrokenElytra": true,
   "replaceBrokenArmor": true,
   "replaceBrokenTotem": true,
-  "autoSelectTool": false,
+  "autoSelectTool": true,
   "keepToolWhileSneaking": true,
   "autoSelectWeapon": false,
   "keepWeaponOnEntity": true,

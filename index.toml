@@ -2,11 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/autoswap.json"
-hash = "094af5bad4fb5320d97a6b748386323a609f98cd9139f9ac00caa66b84570378"
-
-[[files]]
-file = "config/autotools/general.json"
-hash = "11164b5e14328556d89ee6ee70c9ffeb8f6e6ba5663f39438b6c8ba9183cd91f"
+hash = "2e2397cc7e0e084d763434bea4ee2e22f04f223c45060df2863e9868457e2e9f"
 
 [[files]]
 file = "mods/advancedae.pw.toml"
@@ -465,11 +461,6 @@ metafile = true
 [[files]]
 file = "mods/minecolonies.pw.toml"
 hash = "99a91f1e1c59b585f0d64ee30290fbb8a176ba194fd411c1cbddefccb12100d9"
-metafile = true
-
-[[files]]
-file = "mods/minecraft_autotools.pw.toml"
-hash = "86cdb1db0422c3c6644bed00c95abe9e977871d9c1fd9b81ced82b25ec91b3ff"
 metafile = true
 
 [[files]]
