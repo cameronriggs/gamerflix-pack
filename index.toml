@@ -634,7 +634,7 @@ metafile = true
 
 [[files]]
 file = "mods/raws-visual-keybinder.pw.toml"
-hash = "8e1a3347cb6f5429b3e32f7f6106e5cf35531c0c4216059e6081aaecb5e4d4cb"
+hash = "a98a38919da6ccb48dbd0100ea8eb01eb9d958e026984a3d2edde682d442b5d9"
 metafile = true
 
 [[files]]
