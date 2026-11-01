@@ -771,3 +771,7 @@ metafile = true
 file = "mods/zerocore.pw.toml"
 hash = "b51c9c50edbb8a8ef8823160e2cb5d6b1d20c06c5b86dc2d3541c456b8962ab3"
 metafile = true
+
+[[files]]
+file = "resourcepacks/Gamerflix Music.zip"
+hash = "8aafc023167468971deeb9d1917ac477195138556ccbeec7bdb55796d5115b53"
