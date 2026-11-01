@@ -1,0 +1,13 @@
+name = "Baked Apples"
+filename = "baked-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/RSwHhC5Q/versions/yVIHRk5l/baked-1.0.0.jar"
+hash-format = "sha512"
+hash = "e834be40a30cb1a79cd48d8f97fb0162d18b7247cba6ee401131dbc51b4177432b81c3236bbb4cfe3839371a8f9f090a3b5091f41b44ad4b2effd370b696cbe6"
+
+[update]
+[update.modrinth]
+mod-id = "RSwHhC5Q"
+version = "yVIHRk5l"

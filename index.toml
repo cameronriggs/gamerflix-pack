@@ -99,6 +99,11 @@ hash = "6d5d332f4b7074d387f82e40dbcd9e24303cb5fea2f0899c9e5037270a9ffb24"
 metafile = true
 
 [[files]]
+file = "mods/baked-apples.pw.toml"
+hash = "1a590691af20b1b3a7a52bde623e116f73472f30fee41cc3934a904fa64d92c8"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "603cdc47142b5aa5729cbbf265a473574c9e2b55561de4318e9842d3d4b3b995"
 metafile = true
@@ -393,6 +398,11 @@ hash = "36556dec4313e74c6f87c027a958ed63d9f106b9554c6ddf2638d51e6c347d16"
 metafile = true
 
 [[files]]
+file = "mods/leaves-be-gone.pw.toml"
+hash = "583a335211bc3a21bb379394344b67d64bffea421e7f7942c254903e1d607814"
+metafile = true
+
+[[files]]
 file = "mods/lootr.pw.toml"
 hash = "0d3683a8c533e1fb67bf0b1668089a322fc5f594f9610d441657378ab4f64383"
 metafile = true
@@ -615,6 +625,11 @@ metafile = true
 [[files]]
 file = "mods/productivebees.pw.toml"
 hash = "7aa8bf129e51bda25386e18ebcd0db7eae278e95227406e8101a320cacf2f9b6"
+metafile = true
+
+[[files]]
+file = "mods/puzzles-lib.pw.toml"
+hash = "d465abcc806c0d4fdeefb6a5e774cca4fff0ffd27d7c75954ab4688f4c9eaf05"
 metafile = true
 
 [[files]]
