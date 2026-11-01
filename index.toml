@@ -338,6 +338,11 @@ hash = "f1f23b7a70a4a53d2564f1a24ca84e9a54a89af5da88af7bf4c557059eada45a"
 metafile = true
 
 [[files]]
+file = "mods/industrial-foregoing.pw.toml"
+hash = "7f8fdc1a570000b9e4fb07a77447b5579266848b7486f6b8992ac4506d8e2524"
+metafile = true
+
+[[files]]
 file = "mods/iron-furnaces.pw.toml"
 hash = "3f6a27001eb45ce6296829cfa9d7d41a0bd304914217f8dc3196feaa9030f963"
 metafile = true
@@ -734,7 +739,7 @@ metafile = true
 
 [[files]]
 file = "mods/titanium.pw.toml"
-hash = "f0a7b5302b5238964306a522238f623274aee1c639198c04dc543ac759132215"
+hash = "3a38b581421787f8f5e6c59c07347fa1b0abe25943c8adc437bcb26a641e042e"
 metafile = true
 
 [[files]]
