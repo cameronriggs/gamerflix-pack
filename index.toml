@@ -214,8 +214,8 @@ hash = "08a334ae5565e122d26b819cba16ce784776a10fe100ab2b22de72a5a2bac653"
 metafile = true
 
 [[files]]
-file = "mods/cubits-0.1.4.jar"
-hash = "9f6eb76d8e79524bd843df05b595c436b947d66372cd77ff040d74ef03785b11"
+file = "mods/cubits-0.1.5.jar"
+hash = "5564979f75ab0adf379e9d24b0d5eec3ac68b8d22de5244cf56fd253ec702fd3"
 
 [[files]]
 file = "mods/cucumber.pw.toml"
