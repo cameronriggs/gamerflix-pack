@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/MouseTweaks.cfg"
+hash = "438de2af36bf905993252e5015ad3b2f907473f0ad2722d6c79185728bb9b20b"
+
+[[files]]
 file = "config/autoswap.json"
 hash = "2e2397cc7e0e084d763434bea4ee2e22f04f223c45060df2863e9868457e2e9f"
 
