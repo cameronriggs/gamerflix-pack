@@ -329,6 +329,11 @@ hash = "f1f23b7a70a4a53d2564f1a24ca84e9a54a89af5da88af7bf4c557059eada45a"
 metafile = true
 
 [[files]]
+file = "mods/iron-furnaces.pw.toml"
+hash = "3f6a27001eb45ce6296829cfa9d7d41a0bd304914217f8dc3196feaa9030f963"
+metafile = true
+
+[[files]]
 file = "mods/iron-jetpacks.pw.toml"
 hash = "bfdc9d198e69d32ab9bff94fe73a5c7e8d71c93089d602ad77d1f2d3bfb3f352"
 metafile = true
