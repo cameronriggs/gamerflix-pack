@@ -588,6 +588,11 @@ hash = "219ff3a5001c0ec619f7cc8ef5eb3aa6a836e3738e734c384c6376efeacfbf21"
 metafile = true
 
 [[files]]
+file = "mods/natures-compass.pw.toml"
+hash = "35acdf433fe8f8599f59975e848efdb717663c2c471d3a5dc18743799795a736"
+metafile = true
+
+[[files]]
 file = "mods/occultism.pw.toml"
 hash = "22cbd816b397f27c3552fa913cd0c46d3a06602b46b7e12a23fc47e64dbdbb4b"
 metafile = true
