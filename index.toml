@@ -628,6 +628,11 @@ hash = "d7f360ebb9f009d6dc0b368cd8fa399bdff70c0f6ef931687b2a35137f72715d"
 metafile = true
 
 [[files]]
+file = "mods/ping-wheel.pw.toml"
+hash = "650330109d21831664d2ff597c7a90200eda69a1efaca4e9b0b6b6297ac3c364"
+metafile = true
+
+[[files]]
 file = "mods/pipez-lag-fix.pw.toml"
 hash = "b46c0d9e12105f1fb5c0ce0edfbbfd0701043d19bb2476aa09f3426e475c95fb"
 metafile = true
