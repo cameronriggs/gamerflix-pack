@@ -1,0 +1,13 @@
+name = "Ant's Angel Ring"
+filename = "antsangelring-1.21.1-1.2.1.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4351bc3eca24e1104b78cec9ce3ca866aed49ecf"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6814227
+project-id = 1192957
