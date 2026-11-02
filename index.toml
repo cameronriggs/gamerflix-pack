@@ -349,6 +349,10 @@ hash = "108739f2fdaa6a885a3217ae692b2521ab10b8e71fa1222c67274ea0562649a5"
 metafile = true
 
 [[files]]
+file = "mods/gamerflix-leaves-9.5.0.jar"
+hash = "c3905c1bdd74a45f05d9b3df36f83035f58f820be6a15597d425b48e462c5ff7"
+
+[[files]]
 file = "mods/gamerflix-music-1.0.0.jar"
 hash = "86c8ab73081c6e33ef0ffc56b4f377ff4bd967969ddf77b75d0f2214fc6db233"
 
