@@ -225,7 +225,7 @@ metafile = true
 
 [[files]]
 file = "mods/cubits.pw.toml"
-hash = "086e812943c43a3dc9b4f27810a6c56390da3b1c3300b42b3458116e71e587db"
+hash = "e8f4fae5bfdeee50e4ddad79535e4a0070edfde0eee7592df8d71fa245b97852"
 metafile = true
 
 [[files]]
