@@ -35,6 +35,10 @@ jobs:
             echo "::notice::Cubits isn't from Modrinth yet (it's a jar in mods/), so there's nothing to update."
             exit 0
           fi
+          if ! grep -q '^\[update' mods/cubits.pw.toml; then
+            echo "::notice::Cubits is pinned to a direct download link (Modrinth hasn't made the project public yet), so there's nothing to update."
+            exit 0
+          fi
           packwiz update cubits -y
           packwiz refresh
 
