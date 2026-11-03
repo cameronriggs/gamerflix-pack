@@ -209,6 +209,11 @@ hash = "1e1678b169096708fcb92496f251260471221554f70ca0dab1b99f2a6b72ea7b"
 metafile = true
 
 [[files]]
+file = "mods/collective.pw.toml"
+hash = "d6b93f06cfe6d276f2ac631843ecc9eee6ff7c3d62d49ad5453e214a86c9c541"
+metafile = true
+
+[[files]]
 file = "mods/connected-glass.pw.toml"
 hash = "376b22883dd4642dee7bf1e727440cb01d87d72293952a1ddf0c2f1c25fa7863"
 metafile = true
@@ -266,6 +271,11 @@ metafile = true
 [[files]]
 file = "mods/domum-ornamentum.pw.toml"
 hash = "9d93dfc367eb58ff112a7ea21959b8c8864890d0a0b5f9d825fa67dba9262471"
+metafile = true
+
+[[files]]
+file = "mods/double-doors.pw.toml"
+hash = "d3c6f05de0c03ad9782c7eeaca201d687a4ea8abeb2d3bff852786e7b00cad13"
 metafile = true
 
 [[files]]
