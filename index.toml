@@ -19,6 +19,11 @@ hash = "f1f8075f8429887c1aa182a4d3f1e8cf2b662d04b95260e48374f52ab05ae591"
 metafile = true
 
 [[files]]
+file = "mods/ae2-jei-integration.pw.toml"
+hash = "ca8c7d2232f0f667c25c22dd404aaa0c0b521278142aa15df550d79a1ca25f5b"
+metafile = true
+
+[[files]]
 file = "mods/ae2-network-analyser.pw.toml"
 hash = "23ca334019a3e9572ea1c462d5c4e732eb34f657111951cfb781cd52da59b08c"
 metafile = true
