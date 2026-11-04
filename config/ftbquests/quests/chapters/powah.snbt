@@ -1,0 +1,153 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "powah"
+	group: ""
+	icon: { id: "powah:energizing_orb" }
+	id: "4C8AC3FFBF222CC2"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"274FD09F0089B0CE"
+			]
+			id: "4E39C6A4885F8449"
+			rewards: [
+				{ id: "417E59A641BFBEF9", type: "xp", xp: 50 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ count: 8L, id: "107AEAB23BF81C98", item: { id: "powah:dielectric_paste" }, type: "item" }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4E39C6A4885F8449"
+			]
+			id: "112FC3BBA1127236"
+			rewards: [
+				{ count: 32, id: "74A4DB1213542510", item: { id: "minecraft:coal" }, type: "item" }
+				{ id: "7D68CF902219F808", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ count: 1L, id: "28D61B6EFAFBAD11", item: { id: "powah:furnator_starter" }, type: "item" }
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4E39C6A4885F8449"
+			]
+			id: "1C21EC77333DEAB4"
+			rewards: [
+				{ id: "43345D281970A532", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ count: 1L, id: "4DCD7741245F42A4", item: { id: "powah:solar_panel_starter" }, type: "item" }
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"112FC3BBA1127236"
+			]
+			id: "445A7F778F78584B"
+			rewards: [
+				{ id: "30E5E3F909FAE6F7", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ count: 8L, id: "30C64216181A6A55", item: { id: "powah:energy_cable_starter" }, type: "item" }
+			]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1C21EC77333DEAB4"
+				"112FC3BBA1127236"
+			]
+			dependency_requirement: "one_completed"
+			id: "4BBA40538B12C094"
+			rewards: [
+				{ id: "19B32B770E1C93D2", table_id: 1170639464346019588L, type: "loot" }
+				{ id: "47FD22D5E00120BC", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ count: 1L, id: "730E2AA6FF1116DE", item: { id: "powah:energy_cell_starter" }, type: "item" }
+			]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"445A7F778F78584B"
+				"4BBA40538B12C094"
+			]
+			dependency_requirement: "one_completed"
+			id: "61D51B2812955A8F"
+			rewards: [
+				{ id: "3F0722A86D159A61", table_id: 6423244003716412154L, type: "loot" }
+				{ id: "6DB7D215885D3A49", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ count: 1L, id: "725545C0FF2133D8", item: { id: "powah:energizing_orb" }, type: "item" }
+				{ count: 2L, id: "541A7A6BF619FC76", item: { id: "powah:energizing_rod_starter" }, type: "item" }
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"61D51B2812955A8F"
+			]
+			id: "54737504BF84CD68"
+			rewards: [
+				{ id: "36B85C40B45A8E32", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ count: 4L, id: "1760B84FF4FAE645", item: { id: "powah:steel_energized" }, type: "item" }
+			]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"61D51B2812955A8F"
+			]
+			id: "77C8177C597F2039"
+			rewards: [
+				{ id: "1B8A05CDE48F104B", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ count: 1L, id: "2E8A9721362BA18C", item: { id: "powah:capacitor_basic" }, type: "item" }
+			]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"54737504BF84CD68"
+				"77C8177C597F2039"
+			]
+			id: "2A7385E6E557C196"
+			rewards: [
+				{ id: "3451455DFE65F62A", table_id: 6176969357897702812L, type: "loot" }
+				{ id: "6C08135A18E2E34F", type: "xp", xp: 200 }
+			]
+			shape: "gear"
+			size: 1.75d
+			tasks: [
+				{ count: 1L, id: "6D201198E0DB7615", item: { id: "powah:crystal_blazing" }, type: "item" }
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+}

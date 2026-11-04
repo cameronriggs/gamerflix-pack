@@ -1,0 +1,162 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "industry"
+	group: ""
+	icon: { id: "industrialforegoing:machine_frame_pity" }
+	id: "2D2A65F3F3299525"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"274FD09F0089B0CE"
+			]
+			id: "19D21BB17EEFEDCC"
+			rewards: [
+				{ id: "5FBBB3E494D58D32", type: "xp", xp: 75 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ count: 1L, id: "5F9D00C16A7A1022", item: { id: "industrialforegoing:fluid_extractor" }, type: "item" }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"19D21BB17EEFEDCC"
+			]
+			id: "130E9618A70188CB"
+			rewards: [
+				{ id: "5C7157AB0AC43C96", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ count: 1L, id: "3E6E22D9B7A17F08", item: { id: "industrialforegoing:latex_processing_unit" }, type: "item" }
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"130E9618A70188CB"
+			]
+			id: "6338F8CF5C0C0C5D"
+			rewards: [
+				{ id: "79EA58502D2B4396", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ count: 8L, id: "630FA6C7C6682723", item: { id: "industrialforegoing:plastic" }, type: "item" }
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6338F8CF5C0C0C5D"
+			]
+			id: "499E594BEA101500"
+			rewards: [
+				{ id: "27F062B3ECB2C11B", table_id: 1170639464346019588L, type: "loot" }
+				{ id: "56AA1DAB507C7280", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ count: 1L, id: "10C6A10A2A7884DB", item: { id: "industrialforegoing:machine_frame_pity" }, type: "item" }
+			]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"499E594BEA101500"
+			]
+			id: "5A51C5B4928C80AF"
+			rewards: [
+				{ id: "7C7AE5C5AB624380", table_id: 6423244003716412154L, type: "loot" }
+				{ id: "1A2B0D52264D70F4", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ count: 1L, id: "199CC18B02EAE31E", item: { id: "industrialforegoing:dissolution_chamber" }, type: "item" }
+			]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"274FD09F0089B0CE"
+			]
+			id: "5F3518BE12C6DCB1"
+			rewards: [
+				{ count: 16, id: "1C224366A4F86FD1", item: { id: "minecraft:coal" }, type: "item" }
+				{ id: "795A7543CABA507A", type: "xp", xp: 75 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ count: 1L, id: "4915B9F0917FD2B7", item: { id: "oritech:basic_generator_block" }, type: "item" }
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5F3518BE12C6DCB1"
+			]
+			id: "3E1528898A5DA0AD"
+			rewards: [
+				{ id: "47D15DC67755F805", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ count: 1L, id: "1AB19C4D4D590AFE", item: { id: "oritech:pulverizer_block" }, type: "item" }
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3E1528898A5DA0AD"
+			]
+			id: "66F96F3B71600B41"
+			rewards: [
+				{ id: "73CEF3905C12B1E1", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ count: 4L, id: "268A20A84449B4BE", item: { id: "oritech:machine_core_1" }, type: "item" }
+			]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"66F96F3B71600B41"
+			]
+			id: "4E741CE3FAAF0F00"
+			rewards: [
+				{ id: "3590E3A3D3F56BFA", table_id: 6423244003716412154L, type: "loot" }
+				{ id: "4BFD41D8223FA602", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ count: 1L, id: "610120E92647B1FA", item: { id: "oritech:assembler_block" }, type: "item" }
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"66F96F3B71600B41"
+			]
+			id: "67503BBE18C804B5"
+			rewards: [
+				{ id: "5BCCCE090069062D", table_id: 6423244003716412154L, type: "loot" }
+				{ id: "1A6F954EBB3489BA", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ count: 1L, id: "1D5E67AA8B782A37", item: { id: "oritech:foundry_block" }, type: "item" }
+			]
+			x: 6.0d
+			y: 4.0d
+		}
+	]
+}

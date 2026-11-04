@@ -1,0 +1,119 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "logistics"
+	group: ""
+	icon: { id: "pipez:item_pipe" }
+	id: "3742E9E46D6EA46A"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"274FD09F0089B0CE"
+			]
+			id: "5CEC8B896C486E5E"
+			rewards: [
+				{ id: "195907F1FE4BA802", type: "xp", xp: 50 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ count: 8L, id: "5C8CB21DDB347011", item: { id: "pipez:item_pipe" }, type: "item" }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5CEC8B896C486E5E"
+			]
+			id: "2551022F0D4EC918"
+			rewards: [
+				{ id: "10BE57E52E25B67D", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ count: 8L, id: "16D68BFA2DA38549", item: { id: "pipez:energy_pipe" }, type: "item" }
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5CEC8B896C486E5E"
+			]
+			id: "1753C7DEC698538C"
+			rewards: [
+				{ id: "77FDE8089280FDFE", type: "xp", xp: 25 }
+			]
+			tasks: [
+				{ count: 1L, id: "1F623E8E168A5C18", item: { id: "pipez:wrench" }, type: "item" }
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5CEC8B896C486E5E"
+			]
+			id: "5165428924EC515C"
+			rewards: [
+				{ id: "1E25E4CDE7AFBC66", table_id: 1170639464346019588L, type: "loot" }
+				{ id: "179093235BD78C7C", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ count: 1L, id: "1662D04CBE4E4FC3", item: { id: "modularrouters:modular_router" }, type: "item" }
+				{ count: 1L, id: "713F6F0E675CBCD1", item: { id: "modularrouters:blank_module" }, type: "item" }
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5165428924EC515C"
+			]
+			id: "6C66AEE3E8B0A68E"
+			rewards: [
+				{ id: "65A27D0B88CF9EF0", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ count: 1L, id: "447093BDDEAC052C", item: { id: "modularrouters:sender_module_1" }, type: "item" }
+			]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5165428924EC515C"
+			]
+			id: "43C4CC56C2B28839"
+			rewards: [
+				{ id: "245139E991186D2E", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ count: 1L, id: "5244535632FFC89D", item: { id: "modularrouters:breaker_module" }, type: "item" }
+				{ count: 1L, id: "1BFA96CC8AAABAFF", item: { id: "modularrouters:placer_module" }, type: "item" }
+			]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6C66AEE3E8B0A68E"
+				"43C4CC56C2B28839"
+			]
+			dependency_requirement: "one_completed"
+			id: "17B4F2E86BADA692"
+			rewards: [
+				{ id: "57CB5D4367BE2F25", table_id: 6423244003716412154L, type: "loot" }
+				{ id: "6C4FC33B7E111635", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ count: 4L, id: "13744538D1BA5A9A", item: { id: "modularrouters:speed_upgrade" }, type: "item" }
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+}

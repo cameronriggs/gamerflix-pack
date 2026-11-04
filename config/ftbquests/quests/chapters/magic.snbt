@@ -1,0 +1,322 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magic"
+	group: ""
+	icon: { id: "ars_nouveau:novice_spell_book" }
+	id: "1F23A13EC3D73DDE"
+	images: [ ]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"1D3C9B76D509ECFF"
+			]
+			id: "769C1D8E99C54EE9"
+			rewards: [
+				{ id: "6D81BCFAB466E240", type: "xp", xp: 50 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ count: 1L, id: "6E2E8B669640BB90", item: { id: "ars_nouveau:worn_notebook" }, type: "item" }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"769C1D8E99C54EE9"
+			]
+			id: "7A2739D417BFDA2E"
+			rewards: [
+				{ id: "7CFC925C216B680F", table_id: 1170639464346019588L, type: "loot" }
+				{ id: "1398D072D8A91CBE", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ count: 1L, id: "247BEDA41325E8A7", item: { id: "ars_nouveau:novice_spell_book" }, type: "item" }
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"769C1D8E99C54EE9"
+			]
+			id: "198D594C32085CAF"
+			rewards: [
+				{ id: "642C3D832E6EA27C", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ count: 1L, id: "6F72E7C11E59EAF5", item: { id: "ars_nouveau:imbuement_chamber" }, type: "item" }
+				{ count: 4L, id: "162A513D7E89AC85", item: { id: "ars_nouveau:source_gem" }, type: "item" }
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"198D594C32085CAF"
+			]
+			id: "1405071617D1993D"
+			rewards: [
+				{ id: "3F3027FD35CD8F22", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ count: 1L, id: "65FBCE7EF46DA684", item: { id: "ars_nouveau:source_jar" }, type: "item" }
+			]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7A2739D417BFDA2E"
+			]
+			id: "53B61AAB4030A142"
+			rewards: [
+				{ id: "6CD6AD8CE80153ED", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ count: 1L, id: "57EE18003397CA12", item: { id: "ars_nouveau:scribes_table" }, type: "item" }
+			]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1405071617D1993D"
+				"53B61AAB4030A142"
+			]
+			id: "1A071DAA5EB74196"
+			rewards: [
+				{ id: "1FBD1204C631F6B6", table_id: 6423244003716412154L, type: "loot" }
+				{ id: "5A79C7DE261C99B6", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ count: 1L, id: "601EF5BB80FDA5A9", item: { id: "ars_nouveau:enchanting_apparatus" }, type: "item" }
+				{ count: 1L, id: "6084E298B2B195BB", item: { id: "ars_nouveau:arcane_core" }, type: "item" }
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1A071DAA5EB74196"
+			]
+			id: "16658479AEC5B735"
+			rewards: [
+				{ id: "3F7EDC1CB4FEF646", table_id: 6176969357897702812L, type: "loot" }
+				{ id: "18AAC94FD9D4A83E", type: "xp", xp: 250 }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ count: 1L, id: "235B408C66545488", item: { id: "ars_nouveau:apprentice_spell_book" }, type: "item" }
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"274FD09F0089B0CE"
+			]
+			id: "1542D3AAFDA7CA8E"
+			rewards: [
+				{ id: "4C9BFCB2F665E1B1", type: "xp", xp: 50 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ count: 4L, id: "695A1507D166242E", item: { id: "irons_spellbooks:arcane_essence" }, type: "item" }
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"1542D3AAFDA7CA8E"
+			]
+			id: "4E7325CC2E6AF28D"
+			rewards: [
+				{ id: "74FEEDC57141C84E", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ count: 1L, id: "7035D8EA3D243806", item: { id: "irons_spellbooks:inscription_table" }, type: "item" }
+			]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"4E7325CC2E6AF28D"
+			]
+			id: "1270CDF66677BE4C"
+			rewards: [
+				{ id: "19B74A03B58E3979", table_id: 1170639464346019588L, type: "loot" }
+				{ id: "33C2B82A5E356CAE", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ count: 1L, id: "114219349E112B05", item: { id: "irons_spellbooks:copper_spell_book" }, type: "item" }
+			]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4E7325CC2E6AF28D"
+			]
+			id: "15D1F250A4DE7122"
+			rewards: [
+				{ id: "56806D9F42283F98", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ count: 1L, id: "3832A1593B04B0AA", item: { id: "irons_spellbooks:scroll_forge" }, type: "item" }
+			]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"15D1F250A4DE7122"
+			]
+			id: "21D595B1F79C70B8"
+			rewards: [
+				{ id: "3C325E693ED0F616", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ count: 1L, id: "251E6B8211BCD354", item: { id: "irons_spellbooks:alchemist_cauldron" }, type: "item" }
+			]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1270CDF66677BE4C"
+			]
+			id: "438467349720D200"
+			rewards: [
+				{ id: "5E0F9A4ADE8FA70E", table_id: 6423244003716412154L, type: "loot" }
+				{ id: "7D9CBE2438F31BD9", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ count: 1L, id: "1D487326835B0B2D", item: { id: "irons_spellbooks:iron_spell_book" }, type: "item" }
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"438467349720D200"
+				"21D595B1F79C70B8"
+			]
+			dependency_requirement: "one_completed"
+			id: "4E516C06E4540481"
+			rewards: [
+				{ id: "5496576E18E4DC1F", table_id: 6176969357897702812L, type: "loot" }
+				{ id: "4B70C5BDD50F6B38", type: "xp", xp: 250 }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ count: 1L, id: "2EF7873DDF6CA182", item: { id: "irons_spellbooks:arcane_anvil" }, type: "item" }
+			]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"1D3C9B76D509ECFF"
+			]
+			id: "4654E7A3F0D6CDF9"
+			rewards: [
+				{ id: "1ADC39936E6E587E", type: "xp", xp: 50 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ count: 1L, id: "7B2DD8CD25CFCFA3", item: { id: "occultism:dictionary_of_spirits" }, type: "item" }
+			]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"4654E7A3F0D6CDF9"
+			]
+			id: "60C661188022261E"
+			rewards: [
+				{ id: "1FBE3AD1CD271EC3", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ count: 1L, id: "4186262B7C03D76B", item: { id: "occultism:datura_seeds" }, type: "item" }
+			]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"60C661188022261E"
+				"1C94EBC67867327B"
+			]
+			id: "2070FBCE8AF99593"
+			rewards: [
+				{ id: "43AEAAA4119F0356", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ count: 1L, id: "12B00531A7736D20", item: { id: "occultism:otherworld_goggles" }, type: "item" }
+			]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"4654E7A3F0D6CDF9"
+			]
+			id: "1C94EBC67867327B"
+			rewards: [
+				{ id: "798EDCA79D0CAC53", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ count: 1L, id: "3720B33E1D5672F5", item: { id: "occultism:golden_sacrificial_bowl" }, type: "item" }
+				{ count: 4L, id: "37B78EE405950E6E", item: { id: "occultism:sacrificial_bowl" }, type: "item" }
+			]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"1C94EBC67867327B"
+			]
+			id: "71FA1B2EB0166CF1"
+			rewards: [
+				{ id: "4C15F0DDE7D6DC49", table_id: 1170639464346019588L, type: "loot" }
+				{ id: "4DB30B63CECD167E", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ count: 1L, id: "3BFD2F0A7783D936", item: { id: "occultism:chalk_white" }, type: "item" }
+			]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"2070FBCE8AF99593"
+				"71FA1B2EB0166CF1"
+			]
+			dependency_requirement: "one_completed"
+			id: "44970D1305460FD4"
+			rewards: [
+				{ id: "133E75057CB7CDA0", table_id: 6176969357897702812L, type: "loot" }
+				{ id: "7B304193E936BE8E", type: "xp", xp: 250 }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ count: 1L, id: "651A2C5C60C4A4C5", item: { id: "occultism:spirit_attuned_gem" }, type: "item" }
+			]
+			x: 6.0d
+			y: 8.0d
+		}
+	]
+}

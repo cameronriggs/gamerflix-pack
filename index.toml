@@ -9,6 +9,74 @@ file = "config/autoswap.json"
 hash = "2e2397cc7e0e084d763434bea4ee2e22f04f223c45060df2863e9868457e2e9f"
 
 [[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/ae2.snbt"
+hash = "ec38ffcec588ee25c5259da105ce5271b714e2a1612c5175b51aa3ee559368e9"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/cubits.snbt"
+hash = "1bab62fd4c3e3509c4051bcec1419c2039378b2fd3c668a55a1eef8daa736585"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/exploration.snbt"
+hash = "a4b26216e523f9667d5179f3fa30416c07ca632f3179dfa98e7497cc49ca7536"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/industry.snbt"
+hash = "8049a9347d0b000b44d8c93ecd8619d2d147ab79584c864e5f5d0cf4f5897fae"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/logistics.snbt"
+hash = "142c71c3a467469f56dc19cabe3920a2f04f7ca35092c83b7b1a7f40eae1da6a"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/magic.snbt"
+hash = "1f9899beff6a557b75b1df2a09b18ab7e7d070e41a5041628b59a11461cf7ee3"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/mekanism.snbt"
+hash = "296dc9be534356de7a186da258adfab33932dc6f85b5fafebaeb8131f63ab605"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/minecolonies.snbt"
+hash = "e17a2673fcd78082b66cb78e3fe6b84406e7a6aef3fbd732306786790b806bb2"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/mystical.snbt"
+hash = "ff16a41e6e982cad4cf9740003caad223cc4dc479646d264976661475f22b78c"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/powah.snbt"
+hash = "467f97bd7b63180594f41096e967353f7ce0004b95e51808899e6ae72ec8e559"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/welcome.snbt"
+hash = "4c51ec3c4a95b2e898a2ce5b128cb872ed615c34846fe1a0a8762018bf1ae2d2"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+hash = "eee143070a902486a901afde0408b61db6b6b15079702ccbebab7fdfe091c020"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us.snbt"
+hash = "a8e14396626765901e70131a4c35c7d5ad8f5f5d24a805c09fb30943dff80639"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/common_crate.snbt"
+hash = "9dd6ef81bb8a985451c1c6b2d6834ff8a776a63269b80c0d581f0c72ab9a4c28"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/rare_crate.snbt"
+hash = "cde976f9d95bc83704ab5f6b7ff233ff6f5d2f200d925a62de1680cd5632be07"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/uncommon_crate.snbt"
+hash = "50c73bd1e95906ec902960e3ac35903665281967f108bfdda06c98188a111596"
+
+[[files]]
 file = "mods/aaron.pw.toml"
 hash = "4f68f3d076e1f805dfdc1e179b2b64969d319c9af395c2cd7d36f678bc017235"
 metafile = true

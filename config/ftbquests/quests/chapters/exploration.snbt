@@ -1,0 +1,169 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "exploration"
+	group: ""
+	icon: { id: "naturescompass:naturescompass" }
+	id: "2E56F66233E564BA"
+	images: [ ]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"53746E014F82C328"
+			]
+			id: "7796A350A89F0FF2"
+			rewards: [
+				{ id: "46866AE61F28F01E", type: "xp", xp: 50 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ count: 1L, id: "1EDE21234C107DDA", item: { id: "naturescompass:naturescompass" }, type: "item" }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"53746E014F82C328"
+			]
+			id: "4C7C67F4BB468A80"
+			rewards: [
+				{ id: "3F547AD6D0F86839", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ count: 1L, id: "591E962D5955FFE0", item: { id: "paraglider:paraglider" }, type: "item" }
+			]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"7796A350A89F0FF2"
+			]
+			id: "3651D88D69718A0E"
+			rewards: [
+				{ id: "34DD381A0EB91063", table_id: 6423244003716412154L, type: "loot" }
+				{ id: "4F404E69ACDF1043", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ dimension: "aether:the_aether", id: "56D8FED1526F7792", type: "dimension" }
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"7796A350A89F0FF2"
+				"3E948F1C17984902"
+			]
+			id: "59D067B6D0A73BE9"
+			rewards: [
+				{ id: "6ABDDF9A25423244", table_id: 6423244003716412154L, type: "loot" }
+				{ id: "4A98DB9A87577BEF", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ dimension: "twilightforest:twilight_forest", id: "7331020E1C3D7903", type: "dimension" }
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"59D067B6D0A73BE9"
+			]
+			id: "3F7A54FE622B6CD2"
+			rewards: [
+				{ id: "1177AA85C441FAA1", table_id: 6176969357897702812L, type: "loot" }
+				{ id: "151211D9D8ABC001", type: "xp", xp: 250 }
+			]
+			tasks: [
+				{ entity: "twilightforest:naga", id: "26F05EB701F39BF3", type: "kill", value: 1L }
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7796A350A89F0FF2"
+			]
+			id: "7BCF092F3DCAFF55"
+			rewards: [
+				{ id: "1E1CF8DE19B128C5", table_id: 6423244003716412154L, type: "loot" }
+				{ id: "6FFFC9A97408E0E7", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ count: 1L, id: "5C2414FA3E0FB1BA", item: { id: "undergarden:catalyst" }, type: "item" }
+				{ dimension: "undergarden:undergarden", id: "4D73F9EA3B56BB71", type: "dimension" }
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7796A350A89F0FF2"
+			]
+			id: "5CC35FBB572195B5"
+			rewards: [
+				{ count: 4, id: "224B32E46628168B", item: { id: "minecraft:honey_bottle" }, type: "item" }
+				{ id: "5379F77D1FC519E8", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ dimension: "the_bumblezone:the_bumblezone", id: "52DBB00B18080DE3", type: "dimension" }
+			]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"75BA88591F63F534"
+			]
+			id: "4D2E29541C706BF8"
+			rewards: [
+				{ id: "1F7D2D7B953775DA", table_id: 6176969357897702812L, type: "loot" }
+				{ id: "27B279A9D24137CF", type: "xp", xp: 250 }
+			]
+			tasks: [
+				{ advancement: "minecraft:story/enter_the_end", criterion: "", id: "3EA44DBE9ED0C237", type: "advancement" }
+			]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4D2E29541C706BF8"
+			]
+			id: "6E8BB646AAF9C7DD"
+			rewards: [
+				{ id: "76CBEBB14AEC0F2B", table_id: 6176969357897702812L, type: "loot" }
+				{ id: "36A3654E5DF01C8D", type: "xp", xp: 500 }
+			]
+			shape: "gear"
+			size: 1.75d
+			tasks: [
+				{ dimension: "stellaris:moon", id: "5261B28FD9323FBF", type: "dimension" }
+			]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4D2E29541C706BF8"
+			]
+			id: "67A31BAC6273AD49"
+			rewards: [
+				{ id: "3C3F7A3FFFD8AAC7", table_id: 6176969357897702812L, type: "loot" }
+				{ id: "26EA332229095551", type: "xp", xp: 500 }
+			]
+			shape: "gear"
+			size: 1.75d
+			tasks: [
+				{ count: 1L, id: "11BD803EDB72E620", item: { id: "antsangelring:angel_ring" }, type: "item" }
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+}

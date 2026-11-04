@@ -1,0 +1,207 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	icon: { id: "minecraft:grass_block" }
+	id: "729970770370187A"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4943C8B5863A0B33"
+			rewards: [
+				{ count: 8, id: "4678EE130ADFE17C", item: { id: "minecraft:bread" }, type: "item" }
+				{ id: "5ADA950248E21D4C", table_id: 1170639464346019588L, type: "loot" }
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{ id: "4999FE72BD00ACDB", type: "checkmark" }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4943C8B5863A0B33"
+			]
+			id: "53746E014F82C328"
+			rewards: [
+				{ id: "57265D0865B1D8AB", type: "xp", xp: 25 }
+			]
+			tasks: [
+				{ count: 1L, id: "624221216CDC5B22", item: { id: "minecraft:crafting_table" }, type: "item" }
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"53746E014F82C328"
+			]
+			id: "1D3C9B76D509ECFF"
+			rewards: [
+				{ count: 16, id: "5780B4346E157D02", item: { id: "minecraft:torch" }, type: "item" }
+				{ id: "293F5CE832B3A32E", type: "xp", xp: 25 }
+			]
+			tasks: [
+				{ advancement: "minecraft:story/upgrade_tools", criterion: "", id: "303772BF98071D65", type: "advancement" }
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1D3C9B76D509ECFF"
+			]
+			id: "274FD09F0089B0CE"
+			rewards: [
+				{ id: "2E85376071C7A9AA", table_id: 1170639464346019588L, type: "loot" }
+				{ id: "65359DD9371E95BF", type: "xp", xp: 50 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ advancement: "minecraft:story/smelt_iron", criterion: "", id: "610EF895E2BDA4BA", type: "advancement" }
+			]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4943C8B5863A0B33"
+			]
+			id: "50AA19B1B4E7DC0D"
+			rewards: [
+				{ id: "7215E3D2B3823101", type: "xp", xp: 25 }
+			]
+			tasks: [
+				{ id: "1757FDF6B4B9C596", type: "checkmark" }
+			]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"53746E014F82C328"
+			]
+			id: "11AB6FA35821CCC7"
+			rewards: [
+				{ id: "16CC3B99DC2F091C", table_id: 1170639464346019588L, type: "loot" }
+				{ id: "11D232BAC35097CB", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ count: 1L, id: "1ACFB525EC4EAAE0", item: { id: "sophisticatedbackpacks:backpack" }, type: "item" }
+			]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"53746E014F82C328"
+			]
+			id: "1FB2071BD2EA62FF"
+			rewards: [
+				{ id: "6EA6BCA3A1B86660", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ count: 1L, id: "7D204742F8632180", item: { id: "craftingstation:crafting_station" }, type: "item" }
+			]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"274FD09F0089B0CE"
+			]
+			id: "37603ABD8657D6AD"
+			rewards: [
+				{ count: 16, id: "643DFD6F754F8179", item: { id: "minecraft:coal" }, type: "item" }
+				{ id: "1F9890B95C640452", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ count: 1L, id: "754D7232C195F971", item: { id: "ironfurnaces:iron_furnace" }, type: "item" }
+			]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"274FD09F0089B0CE"
+			]
+			id: "686FE75AA3C62C8D"
+			rewards: [
+				{ id: "15EE0409809A3306", table_id: 6423244003716412154L, type: "loot" }
+				{ id: "29C57442F7CA5678", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ count: 1L, id: "3EC6BC94558208EA", item: { id: "waystones:waystone" }, type: "item" }
+			]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"274FD09F0089B0CE"
+			]
+			id: "3E948F1C17984902"
+			rewards: [
+				{ id: "15A9EE79A42B7430", table_id: 6423244003716412154L, type: "loot" }
+				{ id: "19D408C5EEF711F8", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ advancement: "minecraft:story/mine_diamond", criterion: "", id: "44C6E77446473746", type: "advancement" }
+			]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3E948F1C17984902"
+			]
+			id: "234706F9EF81BE80"
+			rewards: [
+				{ id: "59F98EF1531E4C0C", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ count: 1L, id: "6DA0F205B4053712", item: { id: "enderstorage:ender_chest" }, type: "item" }
+			]
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3E948F1C17984902"
+			]
+			id: "75BA88591F63F534"
+			rewards: [
+				{ id: "4044C3095131617C", table_id: 6423244003716412154L, type: "loot" }
+				{ id: "7BAED44C4009F7A0", type: "xp", xp: 150 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ dimension: "minecraft:the_nether", id: "14EB313834823D04", type: "dimension" }
+			]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"53746E014F82C328"
+			]
+			id: "451F74FB05791F8E"
+			optional: true
+			rewards: [
+				{ id: "7D1C4B7BC2D49CF7", type: "xp", xp: 25 }
+			]
+			tasks: [
+				{ count: 1L, id: "55879122E8FAD4A2", item: { id: "excessive_utilities:mini_chest" }, type: "item" }
+			]
+			x: 6.5d
+			y: 2.0d
+		}
+	]
+}

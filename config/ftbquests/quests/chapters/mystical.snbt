@@ -1,0 +1,166 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mystical"
+	group: ""
+	icon: { id: "mysticalagriculture:inferium_essence" }
+	id: "4050850718880254"
+	images: [ ]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"1D3C9B76D509ECFF"
+			]
+			id: "3BF98453A07E0300"
+			rewards: [
+				{ id: "79F3E2A108D6CF17", type: "xp", xp: 50 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ count: 16L, id: "19234CB6561F39C6", item: { id: "mysticalagriculture:inferium_essence" }, type: "item" }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1D3C9B76D509ECFF"
+			]
+			id: "18D41DE4A410C754"
+			rewards: [
+				{ id: "50F46AC92C1503E9", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ count: 4L, id: "6FBBFC2FC2F70C53", item: { id: "mysticalagriculture:prosperity_shard" }, type: "item" }
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3BF98453A07E0300"
+				"18D41DE4A410C754"
+			]
+			id: "5917D2194EC157EA"
+			rewards: [
+				{ count: 16, id: "5F2323DA15EDE4F0", item: { id: "minecraft:bone_meal" }, type: "item" }
+				{ id: "187291AC94D88384", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ count: 1L, id: "5DFA6B2CBE64B0B4", item: { id: "mysticalagriculture:inferium_seeds" }, type: "item" }
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"18D41DE4A410C754"
+			]
+			id: "30C4E03AE6A1F963"
+			rewards: [
+				{ id: "5E2EF2B1DE0BBF66", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ count: 1L, id: "575E7A6BD8402B1B", item: { id: "mysticalagriculture:infusion_crystal" }, type: "item" }
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5917D2194EC157EA"
+			]
+			id: "724D8B701D0EBDFE"
+			rewards: [
+				{ id: "6398168BF8B26215", table_id: 1170639464346019588L, type: "loot" }
+				{ id: "1B4933E77E1DABAE", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ count: 1L, id: "1509B070C0FCDD4F", item: { id: "botanypots:terracotta_botany_pot" }, type: "item" }
+			]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5917D2194EC157EA"
+				"30C4E03AE6A1F963"
+			]
+			id: "1DADCD09D7D6EC0B"
+			rewards: [
+				{ id: "68021D1EED561A7E", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ count: 8L, id: "15B3DE4A0F3104DC", item: { id: "mysticalagriculture:prudentium_essence" }, type: "item" }
+			]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1DADCD09D7D6EC0B"
+			]
+			id: "443DA97DCE02DF66"
+			rewards: [
+				{ id: "73A18D6AD1B03EC2", table_id: 6423244003716412154L, type: "loot" }
+				{ id: "160491F935FA92C9", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ count: 1L, id: "736E98FC9A388FB1", item: { id: "mysticalagriculture:infusion_altar" }, type: "item" }
+				{ count: 4L, id: "57F03F98574240C2", item: { id: "mysticalagriculture:infusion_pedestal" }, type: "item" }
+			]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"443DA97DCE02DF66"
+			]
+			id: "16C2034E8470D6A4"
+			rewards: [
+				{ id: "329E9C5C9EA2DD89", table_id: 6423244003716412154L, type: "loot" }
+				{ id: "22CB987BDAB52E05", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ count: 1L, id: "45F201E3C1DD74C3", item: { id: "mysticalagriculture:iron_seeds" }, type: "item" }
+			]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1DADCD09D7D6EC0B"
+			]
+			id: "3A13AB67D56C6508"
+			rewards: [
+				{ id: "3590DE450D19ADF6", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ count: 8L, id: "55B311287C51AFB3", item: { id: "mysticalagriculture:tertium_essence" }, type: "item" }
+			]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"16C2034E8470D6A4"
+				"3A13AB67D56C6508"
+			]
+			id: "1576D6AE3BBC4892"
+			rewards: [
+				{ id: "44196F30125BB055", table_id: 6176969357897702812L, type: "loot" }
+				{ id: "18515312D01AFC5B", type: "xp", xp: 200 }
+			]
+			shape: "gear"
+			size: 1.75d
+			tasks: [
+				{ count: 1L, id: "676617A78DF4FEAB", item: { id: "mysticalagriculture:inferium_farmland" }, type: "item" }
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+}

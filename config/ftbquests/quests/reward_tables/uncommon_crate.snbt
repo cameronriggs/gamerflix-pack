@@ -1,0 +1,21 @@
+{
+	icon: { id: "ftbquests:lootcrate" }
+	id: "5923F263BB2CB2FA"
+	loot_crate: { color: 5949530, drops: { boss: 0, monster: 0, passive: 0 }, item_name: "Uncommon Crate", string_id: "uncommon" }
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 6, id: "4C38CEE62061808D", item: { id: "minecraft:gold_ingot" }, weight: 10.0f }
+		{ count: 24, id: "41C38158D83E89B2", item: { id: "minecraft:redstone" }, weight: 10.0f }
+		{ count: 12, id: "19093C8F543CF545", item: { id: "minecraft:lapis_lazuli" }, weight: 8.0f }
+		{ count: 3, id: "4AC8D6CAC6FB7728", item: { id: "minecraft:ender_pearl" }, weight: 6.0f }
+		{ id: "595452159EFDEB48", item: { id: "minecraft:diamond" }, weight: 5.0f }
+		{ count: 12, id: "7816DB6B6FE962C5", item: { id: "minecraft:glowstone_dust" }, weight: 6.0f }
+		{ count: 3, id: "137651031C49345F", item: { id: "minecraft:emerald" }, weight: 6.0f }
+		{ count: 8, id: "1AA362BC16337145", item: { id: "minecraft:golden_carrot" }, weight: 6.0f }
+		{ count: 16, id: "149F9089EF3E4C99", item: { id: "minecraft:iron_ingot" }, weight: 8.0f }
+		{ count: 16, id: "399191F797DCBB01", item: { id: "minecraft:quartz" }, weight: 6.0f }
+		{ count: 4, id: "175823F4303AF672", item: { id: "minecraft:experience_bottle" }, weight: 5.0f }
+		{ count: 6, id: "1D84F0431E7E28F4", item: { id: "minecraft:slime_ball" }, weight: 4.0f }
+	]
+}

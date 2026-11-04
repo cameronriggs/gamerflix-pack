@@ -1,0 +1,220 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism"
+	group: ""
+	icon: { id: "mekanism:metallurgic_infuser" }
+	id: "3B6BBA850D3D089B"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"274FD09F0089B0CE"
+			]
+			id: "7F1C7762E1939795"
+			rewards: [
+				{ id: "10773B8A84696B89", type: "xp", xp: 50 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ count: 4L, id: "12EB7007EAF613F4", item: { id: "mekanism:ingot_osmium" }, type: "item" }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7F1C7762E1939795"
+			]
+			id: "3AE8126F217C0420"
+			rewards: [
+				{ count: 16, id: "12E40C26D64F4D70", item: { id: "minecraft:coal" }, type: "item" }
+				{ id: "16A3B7F7EEC8D4EA", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ count: 1L, id: "79DF2FBEA504E449", item: { id: "mekanism:metallurgic_infuser" }, type: "item" }
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3AE8126F217C0420"
+			]
+			id: "5D10DA2D12A78532"
+			rewards: [
+				{ id: "3445D627832F6843", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ count: 4L, id: "35D09753CD268913", item: { id: "mekanism:ingot_steel" }, type: "item" }
+			]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3AE8126F217C0420"
+			]
+			id: "4CC98B20F997A6E4"
+			rewards: [
+				{ id: "3ADEDB1739CE7F33", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ count: 2L, id: "29E0761AE5C361C6", item: { id: "mekanism:alloy_infused" }, type: "item" }
+			]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5D10DA2D12A78532"
+			]
+			id: "25240CDB5759D1CD"
+			rewards: [
+				{ id: "2CD1728DA616AAC6", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ count: 1L, id: "76C51DBD7E87B4C6", item: { id: "mekanism:steel_casing" }, type: "item" }
+			]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4CC98B20F997A6E4"
+			]
+			id: "5A7561BF043040D8"
+			rewards: [
+				{ id: "7F2910A8E469352A", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ count: 2L, id: "1507529BDC8BE246", item: { id: "mekanism:basic_control_circuit" }, type: "item" }
+			]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"25240CDB5759D1CD"
+				"5A7561BF043040D8"
+			]
+			id: "3AB6719819F9A357"
+			rewards: [
+				{ id: "55F87426A6314635", table_id: 6423244003716412154L, type: "loot" }
+				{ id: "264DB67972C65EE3", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ count: 1L, id: "14CB996852D8484B", item: { id: "mekanism:enrichment_chamber" }, type: "item" }
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3AB6719819F9A357"
+			]
+			id: "549B08DC03B274B4"
+			rewards: [
+				{ id: "4AEC8B3F1F1796DD", table_id: 6423244003716412154L, type: "loot" }
+				{ id: "4DF6BF0C5741F529", type: "xp", xp: 200 }
+			]
+			tasks: [
+				{ count: 1L, id: "1704664A17582EC7", item: { id: "mekanism:purification_chamber" }, type: "item" }
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5A7561BF043040D8"
+			]
+			id: "380622BEDAAFE792"
+			rewards: [
+				{ id: "4D1FEB7680B10B8D", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ count: 8L, id: "12C7DCCF8ABCFB8F", item: { id: "mekanism:basic_universal_cable" }, type: "item" }
+			]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"380622BEDAAFE792"
+			]
+			id: "7CD1BC63BF7BE58C"
+			rewards: [
+				{ id: "5D63C51DE9EFECE4", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ count: 1L, id: "77F6810341D29947", item: { id: "mekanism:basic_energy_cube" }, type: "item" }
+			]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"25240CDB5759D1CD"
+			]
+			id: "42164284BD1B44DB"
+			rewards: [
+				{ id: "76A89C6956A3E304", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ count: 1L, id: "11B3C725551CC3AA", item: { id: "mekanism:configurator" }, type: "item" }
+			]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"42164284BD1B44DB"
+			]
+			id: "1E3FA68751F0BC4E"
+			rewards: [
+				{ id: "44D2F8F31B6D3ACC", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ count: 8L, id: "145B0782F74088BC", item: { id: "mekanism:basic_logistical_transporter" }, type: "item" }
+			]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1E3FA68751F0BC4E"
+			]
+			id: "5782155BFF7295CF"
+			rewards: [
+				{ id: "2A7A87F836C6C1EF", table_id: 6423244003716412154L, type: "loot" }
+				{ id: "763D65727C567DC8", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ count: 1L, id: "50CF59A662FFD83E", item: { id: "mekanism:atomic_disassembler" }, type: "item" }
+			]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"549B08DC03B274B4"
+				"7CD1BC63BF7BE58C"
+			]
+			id: "2BA2B1A919D91B72"
+			rewards: [
+				{ id: "492ACD54D37D0903", table_id: 6176969357897702812L, type: "loot" }
+				{ id: "2D3946727B5FF5AF", type: "xp", xp: 500 }
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{ count: 1L, id: "23731CC3F5DCF890", item: { id: "mekanism:digital_miner" }, type: "item" }
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+}

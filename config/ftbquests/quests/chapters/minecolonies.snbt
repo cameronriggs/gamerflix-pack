@@ -1,0 +1,134 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "minecolonies"
+	group: ""
+	icon: { id: "minecolonies:blockhuttownhall" }
+	id: "17E7B3B7C04E8B12"
+	images: [ ]
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"274FD09F0089B0CE"
+			]
+			id: "667A00FC8BCA048C"
+			rewards: [
+				{ count: 32, id: "14C9342733240405", item: { id: "minecraft:oak_log" }, type: "item" }
+				{ id: "5D36D4358EB5D24A", type: "xp", xp: 75 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ count: 1L, id: "25D8E54DCC63070A", item: { id: "minecolonies:supplycampdeployer" }, type: "item" }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"667A00FC8BCA048C"
+			]
+			id: "427A7892E4195501"
+			rewards: [
+				{ id: "1E26116288964695", table_id: 1170639464346019588L, type: "loot" }
+				{ id: "33DFA666F61B7CCC", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ count: 1L, id: "1D9CD1ED39B89952", item: { id: "minecolonies:blockhuttownhall" }, type: "item" }
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"667A00FC8BCA048C"
+			]
+			id: "3AE79584F5B3BB99"
+			rewards: [
+				{ id: "784F7ADAE006EDCB", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ count: 1L, id: "69C0709378C0EA5C", item: { id: "structurize:sceptergold" }, type: "item" }
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"427A7892E4195501"
+				"3AE79584F5B3BB99"
+			]
+			id: "378F3436C7FAA833"
+			rewards: [
+				{ count: 64, id: "154E71BB0A3CB4C8", item: { id: "minecraft:cobblestone" }, type: "item" }
+				{ id: "16E63A76DC500854", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ count: 1L, id: "5E362A5CABEFBB96", item: { id: "minecolonies:blockhutbuilder" }, type: "item" }
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"378F3436C7FAA833"
+			]
+			id: "1E1033E87E925F88"
+			rewards: [
+				{ id: "1C086D9FDF9A2F71", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ count: 1L, id: "614B9CEEC74EF577", item: { id: "minecolonies:blockhutcitizen" }, type: "item" }
+			]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"378F3436C7FAA833"
+			]
+			id: "6F2E723F0AEAD0A7"
+			rewards: [
+				{ count: 32, id: "75EA94516C581F95", item: { id: "minecraft:wheat_seeds" }, type: "item" }
+				{ id: "7D122B2B3C60CB09", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ count: 1L, id: "1FABD41A84A43BB1", item: { id: "minecolonies:blockhutfarmer" }, type: "item" }
+			]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1E1033E87E925F88"
+			]
+			id: "559684966389B195"
+			rewards: [
+				{ count: 16, id: "180868323D0C8DB8", item: { id: "minecraft:oak_sapling" }, type: "item" }
+				{ id: "49D6B77B0E817FDF", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ count: 1L, id: "494AB77FE39A66B8", item: { id: "minecolonies:blockhutlumberjack" }, type: "item" }
+			]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6F2E723F0AEAD0A7"
+			]
+			id: "7668E60435B25B0E"
+			rewards: [
+				{ id: "5F0403410C921203", table_id: 6423244003716412154L, type: "loot" }
+				{ id: "1165DF8587BC8A98", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ count: 1L, id: "1B6BF0522EE74D55", item: { id: "minecolonies:blockhutminer" }, type: "item" }
+			]
+			x: 8.0d
+			y: 1.0d
+		}
+	]
+}

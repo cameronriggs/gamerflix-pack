@@ -1,0 +1,19 @@
+{
+	icon: { id: "ftbquests:lootcrate" }
+	id: "55B900E76DF71D9C"
+	loot_crate: { color: 5934335, drops: { boss: 0, monster: 0, passive: 0 }, item_name: "Rare Crate", string_id: "rare" }
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ count: 4, id: "16E7E182CE376F5C", item: { id: "minecraft:diamond" }, weight: 10.0f }
+		{ count: 8, id: "73FB17F728962EF0", item: { id: "minecraft:emerald" }, weight: 8.0f }
+		{ count: 2, id: "18618B601BA8B99C", item: { id: "minecraft:golden_apple" }, weight: 8.0f }
+		{ count: 8, id: "5B7D0F7B46AEB573", item: { id: "minecraft:ender_pearl" }, weight: 8.0f }
+		{ count: 12, id: "7E59553593060B22", item: { id: "minecraft:experience_bottle" }, weight: 8.0f }
+		{ id: "4A61EB33E1010CD1", item: { id: "minecraft:netherite_scrap" }, weight: 3.0f }
+		{ id: "4D9A9BDDEDC66DEE", item: { id: "minecraft:name_tag" }, weight: 5.0f }
+		{ count: 6, id: "17B9ECF4D9C09ED5", item: { id: "minecraft:blaze_rod" }, weight: 6.0f }
+		{ count: 2, id: "7FCA26CE255A5E19", item: { id: "minecraft:gold_block" }, weight: 6.0f }
+		{ count: 4, id: "52A394ECCF59A278", item: { id: "minecraft:iron_block" }, weight: 8.0f }
+	]
+}

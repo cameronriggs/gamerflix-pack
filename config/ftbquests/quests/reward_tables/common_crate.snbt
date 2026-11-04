@@ -1,0 +1,19 @@
+{
+	icon: { id: "ftbquests:lootcrate" }
+	id: "103EF263F865E704"
+	loot_crate: { color: 10526880, drops: { boss: 0, monster: 0, passive: 0 }, item_name: "Common Crate", string_id: "common" }
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 6, id: "19BA54048F6C722A", item: { id: "minecraft:iron_ingot" }, weight: 10.0f }
+		{ count: 12, id: "1DB1FC8C07995215", item: { id: "minecraft:copper_ingot" }, weight: 10.0f }
+		{ count: 16, id: "195A51A3F13D99A1", item: { id: "minecraft:coal" }, weight: 10.0f }
+		{ count: 8, id: "6E901D6722D37200", item: { id: "minecraft:bread" }, weight: 8.0f }
+		{ count: 32, id: "5C1908DF01BDED98", item: { id: "minecraft:torch" }, weight: 8.0f }
+		{ count: 12, id: "54B2DE0C7DB63FF1", item: { id: "minecraft:redstone" }, weight: 8.0f }
+		{ count: 16, id: "1665535C97F52C2B", item: { id: "minecraft:oak_log" }, weight: 6.0f }
+		{ count: 16, id: "1C6F0727629CBBEC", item: { id: "minecraft:arrow" }, weight: 5.0f }
+		{ count: 8, id: "2E7D7A057D4D68EB", item: { id: "minecraft:cooked_beef" }, weight: 6.0f }
+		{ count: 8, id: "77C72149EFFF83B6", item: { id: "minecraft:string" }, weight: 4.0f }
+	]
+}
