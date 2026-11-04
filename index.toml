@@ -612,6 +612,11 @@ hash = "005b6b7f6a70abc5b3ce6cb0afe46fca187ce2eb36915cbacf18fb93e841bda4"
 metafile = true
 
 [[files]]
+file = "mods/modular-routers.pw.toml"
+hash = "2d0e07346e9d59b3839eb3564d5d6a3a53d8bc93d24892a857c5769f239e5c92"
+metafile = true
+
+[[files]]
 file = "mods/moonlight.pw.toml"
 hash = "709bfedec583aee1370ad11210b75a454b1e3f10c0a1da7fe25abd1c28a8681d"
 metafile = true
