@@ -219,6 +219,11 @@ hash = "d6b93f06cfe6d276f2ac631843ecc9eee6ff7c3d62d49ad5453e214a86c9c541"
 metafile = true
 
 [[files]]
+file = "mods/comforts.pw.toml"
+hash = "36f2f6e74b7dbeccb504572d47006582207544fa234a095093b97adfc7ecd5ac"
+metafile = true
+
+[[files]]
 file = "mods/connected-glass.pw.toml"
 hash = "376b22883dd4642dee7bf1e727440cb01d87d72293952a1ddf0c2f1c25fa7863"
 metafile = true
