@@ -274,6 +274,11 @@ hash = "e3211d7d54a7203a183ed3b453be5dd52d27f389dbef26dd7e769f20e1dea81f"
 metafile = true
 
 [[files]]
+file = "mods/deepnull-reforged.pw.toml"
+hash = "b0ecd8023bc70b12bc020dc93db81d2ef639f1e676569f6686749a506bf892bd"
+metafile = true
+
+[[files]]
 file = "mods/deimos.pw.toml"
 hash = "8fa452b9f04851f6c190c5e77caa0b81023e9f99b2c969ca28e92bca48748f02"
 metafile = true
