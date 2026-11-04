@@ -9,6 +9,11 @@ file = "config/autoswap.json"
 hash = "2e2397cc7e0e084d763434bea4ee2e22f04f223c45060df2863e9868457e2e9f"
 
 [[files]]
+file = "mods/aaron.pw.toml"
+hash = "4f68f3d076e1f805dfdc1e179b2b64969d319c9af395c2cd7d36f678bc017235"
+metafile = true
+
+[[files]]
 file = "mods/advancedae.pw.toml"
 hash = "44791600b6d51fed024525689166334f8e3bc97cce2acef9190f244319ea6cf8"
 metafile = true
@@ -304,6 +309,11 @@ hash = "302bd3b2339329f655f6bd46c3fe198a3bdd2eff755f9b64b2c1ebc10d3399c0"
 metafile = true
 
 [[files]]
+file = "mods/excessive-utilities.pw.toml"
+hash = "bb9804c78e2d41a76d6532c6f9c2e556c1fea7ee058da23d687ff92743ef0550"
+metafile = true
+
+[[files]]
 file = "mods/extended-ae.pw.toml"
 hash = "03494a76b42b1b79e4d36a93317b8e884cafdb7e08f6103ce47ecd4e4df57645"
 metafile = true
@@ -464,6 +474,11 @@ metafile = true
 [[files]]
 file = "mods/kiwi.pw.toml"
 hash = "84f4b09b7ef3ef75478cfa6d126951958444d612375c99b1c4e7e6bdbef28c1c"
+metafile = true
+
+[[files]]
+file = "mods/kotlin-for-forge.pw.toml"
+hash = "712a69b3569a8055979de6eea262068535fe182dffb3833e53e5833e9cbf9766"
 metafile = true
 
 [[files]]
