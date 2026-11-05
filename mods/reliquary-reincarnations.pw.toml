@@ -1,0 +1,13 @@
+name = "Reliquary Reincarnations"
+filename = "reliquary-1.21.1-2.0.82.1584.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/fQO83PId/versions/MpzTF4is/reliquary-1.21.1-2.0.82.1584.jar"
+hash-format = "sha512"
+hash = "b0668b8a30f8221f02fcf398897c8743fec07a2f5ceaa03e670420a48ed74cd305b8eb13873ef130c239239dbc93ff54720047dae9152d66f460e05c7ff0e642"
+
+[update]
+[update.modrinth]
+mod-id = "fQO83PId"
+version = "MpzTF4is"

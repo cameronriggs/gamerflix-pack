@@ -777,6 +777,11 @@ hash = "a98a38919da6ccb48dbd0100ea8eb01eb9d958e026984a3d2edde682d442b5d9"
 metafile = true
 
 [[files]]
+file = "mods/reliquary-reincarnations.pw.toml"
+hash = "c4476c072d22c0e4e65829d55c18fb1d690478dc6a7a4b56585ebb823cbce100"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "c0b066684294c33972d562e0cb08ea17b2d31bcf86cd1d6c63b8e968f0eac7a2"
 metafile = true
