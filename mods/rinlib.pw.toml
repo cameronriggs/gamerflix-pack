@@ -1,0 +1,13 @@
+name = "RinLib"
+filename = "rinlib-neoforge-1.2.0+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/PbP7tKqB/versions/37wyGOJJ/rinlib-neoforge-1.2.0%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "2917dee71df53ceeb532184c56181e2b38ea6d351c23293a6265a973179eb65d781e1cce4805bda6df1299325a5afa25bf124ab63e12f5b0017fb2e7a95a78b3"
+
+[update]
+[update.modrinth]
+mod-id = "PbP7tKqB"
+version = "37wyGOJJ"

@@ -702,6 +702,11 @@ hash = "6514f98b34602b789fc2dbcafe7a67468d1c94d74965a0142a79b7ab23628a9a"
 metafile = true
 
 [[files]]
+file = "mods/paper-plane.pw.toml"
+hash = "ac68d1a624b6b9295c8afcc3f941a6a92d361fdb88f3707becea3fe66b9514d9"
+metafile = true
+
+[[files]]
 file = "mods/paragliders.pw.toml"
 hash = "c323e7a690fc87db51353a7106e275d89e3947826070c0b02c3a4717361dde63"
 metafile = true
@@ -784,6 +789,11 @@ metafile = true
 [[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "c0b066684294c33972d562e0cb08ea17b2d31bcf86cd1d6c63b8e968f0eac7a2"
+metafile = true
+
+[[files]]
+file = "mods/rinlib.pw.toml"
+hash = "61d8fd8aa49e36297d4f7f8cde7dcbd2a399b84ca2f887238524087a1000c318"
 metafile = true
 
 [[files]]
