@@ -507,6 +507,16 @@ hash = "f1f23b7a70a4a53d2564f1a24ca84e9a54a89af5da88af7bf4c557059eada45a"
 metafile = true
 
 [[files]]
+file = "mods/handcrafted.pw.toml"
+hash = "0004feab868f7b873c12db05aae0d0dac6c87b497490b48bb66480e7c8d0f340"
+metafile = true
+
+[[files]]
+file = "mods/im-fast.pw.toml"
+hash = "9a9e3c5113b88e5f8c1eab4278da836b1f3ba9babbf4d37c611a1f846f8189f8"
+metafile = true
+
+[[files]]
 file = "mods/industrial-foregoing.pw.toml"
 hash = "7f8fdc1a570000b9e4fb07a77447b5579266848b7486f6b8992ac4506d8e2524"
 metafile = true
@@ -527,6 +537,11 @@ hash = "bfdc9d198e69d32ab9bff94fe73a5c7e8d71c93089d602ad77d1f2d3bfb3f352"
 metafile = true
 
 [[files]]
+file = "mods/irons-jewelry.pw.toml"
+hash = "42fc720ae8e49004d59c46ee3bfd0579b65048c06a51aa65883b114f71560dde"
+metafile = true
+
+[[files]]
 file = "mods/irons-lib.pw.toml"
 hash = "8941da7290825037921249274369a39440567f667df2eead412cf54423168f7e"
 metafile = true
@@ -534,6 +549,11 @@ metafile = true
 [[files]]
 file = "mods/irons-spells-n-spellbooks.pw.toml"
 hash = "4623bbc102dd3b7648a96569a1ab49b868774d46355b305ac40c4c79ad1c74e2"
+metafile = true
+
+[[files]]
+file = "mods/item-collectors.pw.toml"
+hash = "13331177fdf578f47c26564e1cb181ee0b0c15312036621e81557a664e240d03"
 metafile = true
 
 [[files]]
@@ -949,6 +969,11 @@ metafile = true
 [[files]]
 file = "mods/stylecolonies.pw.toml"
 hash = "9f9697e78e4b1503d9e4e97d0863719b7075b6f6452798d8a852c1e5d971dcb5"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-config-lib.pw.toml"
+hash = "62bd7012826fdcccf17a089055be67f87fb7335c88e73efc52bc9e51a1bf3188"
 metafile = true
 
 [[files]]
