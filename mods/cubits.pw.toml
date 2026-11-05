@@ -1,8 +1,8 @@
 name = "Cubits"
-filename = "cubits-0.1.16.jar"
+filename = "cubits-0.1.17.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/QpFU07jQ/versions/KPgdxFX1/cubits-0.1.16.jar"
+url = "https://cdn.modrinth.com/data/QpFU07jQ/versions/1hhdAcuZ/cubits-0.1.17.jar"
 hash-format = "sha256"
-hash = "f5f64049b8680e1b30cd15a473e0673e30a9d6cf9f23edfa856754be62d3af77"
+hash = "982f6e24fb8d310450d4ddf79694f2a0d03fec39002ac6b91fba874eb6a220c3"
