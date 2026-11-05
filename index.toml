@@ -742,6 +742,11 @@ hash = "93284ca7f2f23f0bb76d42b797cabf2aea1914ee9825bec82bf6ffe4c60dda0d"
 metafile = true
 
 [[files]]
+file = "mods/pneumaticcraft-repressurized.pw.toml"
+hash = "46838ef65d3c86f6b77f136f525ecf234a0c48fb6bba19a267a179861cc924da"
+metafile = true
+
+[[files]]
 file = "mods/polylib.pw.toml"
 hash = "74b981b04f079323585e4e7b5a7aa268edabd0b3e76f6f7cba6c4e7a7c1bb280"
 metafile = true
