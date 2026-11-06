@@ -318,5 +318,34 @@
 			x: 6.0d
 			y: 8.0d
 		}
+		{
+			dependencies: [
+				"16658479AEC5B735"
+			]
+			id: "1947EB676624CA4B"
+			rewards: [
+				{ id: "1B19964AD194ED18", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ id: "2AAB5798E8EB94E7", type: "checkmark" }
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1405071617D1993D"
+			]
+			id: "787876EEBF0448E2"
+			optional: true
+			rewards: [
+				{ id: "5D9CFC6894085683", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ count: 1L, id: "603F398F7278CAC9", item: { id: "arseng:source_acceptor" }, type: "item" }
+			]
+			x: 6.0d
+			y: -2.0d
+		}
 	]
 }

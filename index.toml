@@ -1078,7 +1078,7 @@ hash = "50c73bd1e95906ec902960e3ac35903665281967f108bfdda06c98188a111596"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "458dcfcbedbc4a73bf0a028ffb790b91fad8682d5416045c9653433c1489b603"
+hash = "d1c77707292cbe9c17e3299f8143a8a1eff581c9ef46c35390eea9f79cb4bc12"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ae2.snbt"
@@ -1090,7 +1090,7 @@ hash = "41da35eb1179bff4c736c8e774bbe5aa6e39173877af5537c67bad0b3c2553df"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "71e8430cdb7d049d8e0d30aa063fcfb39e3319e62922995954fb0cf91ed831af"
+hash = "3cb53f1638b12ce6ba5ad7bad9652886a4d4c5e9b77d6556712fc5f9f61ea616"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cubits.snbt"
@@ -1110,7 +1110,7 @@ hash = "142c71c3a467469f56dc19cabe3920a2f04f7ca35092c83b7b1a7f40eae1da6a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/magic.snbt"
-hash = "f19ae58649dd60d0b1bfb8e3c40fb4862866925ed18e027dddc9635f493a537d"
+hash = "6fb4c28b0ef98de4a00b394d8e9fbc97cbe42685eb4ffa3ebe7bb25beb127133"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism.snbt"

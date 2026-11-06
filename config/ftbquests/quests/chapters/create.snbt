@@ -307,5 +307,125 @@
 			x: 2.0d
 			y: 2.0d
 		}
+		{
+			dependencies: [
+				"71B18971AB485FA6"
+			]
+			id: "29E09F0C3983039F"
+			rewards: [
+				{ id: "5E8807F64C0AC223", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ count: 1L, id: "70E7ED1CEEA3CCEB", item: { id: "createaddition:rolling_mill" }, type: "item" }
+			]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"29E09F0C3983039F"
+				"1BD484E08BBCEDE6"
+			]
+			id: "12487A76D18BF38C"
+			rewards: [
+				{ id: "1985E116DCA88854", table_id: 6423244003716412154L, type: "loot" }
+				{ id: "276B4E7CDC98F13F", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ count: 1L, id: "4DF8F7D66BED8582", item: { id: "createaddition:electric_motor" }, type: "item" }
+				{ count: 1L, id: "11A6A6E73F9F8820", item: { id: "createaddition:alternator" }, type: "item" }
+			]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"12487A76D18BF38C"
+			]
+			id: "1DA836963EDDAB49"
+			rewards: [
+				{ id: "30A377018AFEFA0B", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ count: 1L, id: "66F269912551BAD6", item: { id: "createaddition:tesla_coil" }, type: "item" }
+			]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"12487A76D18BF38C"
+			]
+			id: "3B7B9B74D3F49707"
+			optional: true
+			rewards: [
+				{ id: "57DADA5B6F5098A9", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ count: 4L, id: "466CC3686875FDB1", item: { id: "createaddition:modular_accumulator" }, type: "item" }
+			]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"1A355DC907F51396"
+			]
+			id: "38ED241A0E93D8FF"
+			rewards: [
+				{ id: "5EF4544D2C71BD73", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ count: 1L, id: "3ED29E3C95C94F0C", item: { id: "create_enchantment_industry:mechanical_grindstone" }, type: "item" }
+			]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"38ED241A0E93D8FF"
+				"42804CC10A9299F0"
+			]
+			id: "2EC183BBC336E4C8"
+			rewards: [
+				{ id: "20FBA40ACAC990A5", table_id: 6423244003716412154L, type: "loot" }
+				{ id: "6158013D845E8DD3", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ count: 1L, id: "515EFBF5D952B541", item: { id: "create_enchantment_industry:blaze_enchanter" }, type: "item" }
+			]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2EC183BBC336E4C8"
+			]
+			id: "74CB2DC2187913CB"
+			optional: true
+			rewards: [
+				{ id: "640D45E4BB9746F5", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ count: 1L, id: "724F3A14CE411AF3", item: { id: "create_enchantment_industry:printer" }, type: "item" }
+			]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"7AC5D20C1989AD06"
+			]
+			id: "1362E557ED0F5883"
+			optional: true
+			rewards: [
+				{ id: "1D632C40C56F23BD", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ count: 1L, id: "571C57BD3AA79C84", item: { id: "copycats:copycat_block" }, type: "item" }
+			]
+			x: 4.0d
+			y: 4.0d
+		}
 	]
 }

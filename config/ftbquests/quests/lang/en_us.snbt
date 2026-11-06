@@ -80,6 +80,12 @@
 		"Expose an Empty PCB in the UV Light Box, then etch it. JEI shows each step."
 	]
 	quest.11CF66FCEA5B6571.title: "Circuit Boards"
+	quest.12487A76D18BF38C.quest_desc: [
+		"An Alternator turns rotation into FE power. An Electric Motor turns FE back into rotation."
+		""
+		"This links Create to Powah, Mekanism and the rest."
+	]
+	quest.12487A76D18BF38C.title: "Electricity"
 	quest.1270CDF66677BE4C.quest_desc: [
 		"Your first spell book. Wear it in its Curios slot and cast its spells."
 	]
@@ -96,6 +102,10 @@
 		"Tools made from rock crystal. Better crystals make better tools."
 	]
 	quest.131E0527D8540E68.title: "Crystal Tools"
+	quest.1362E557ED0F5883.quest_desc: [
+		"From Copycats+. Click any block into a copycat block and it takes on that look, in shapes the block doesn't come in."
+	]
+	quest.1362E557ED0F5883.title: "Copycats"
 	quest.13DB7ACBA496150C.quest_desc: [
 		"A Deployer uses the item in its hand like a player would."
 	]
@@ -166,6 +176,12 @@
 		"Prosperity Ore drops Prosperity Shards."
 	]
 	quest.18D41DE4A410C754.title: "Prosperity"
+	quest.1947EB676624CA4B.quest_desc: [
+		"From Ars Elemental. Wear a focus to make spells of its element stronger."
+		""
+		"There are fire, water, air, earth and necrotic foci. Make the one that fits how you play, then tick this off."
+	]
+	quest.1947EB676624CA4B.title: "Elemental Focus"
 	quest.198D594C32085CAF.quest_desc: [
 		"The Imbuement Chamber turns amethyst into Source Gems using source."
 	]
@@ -214,6 +230,10 @@
 		"Upgrade to a stone pickaxe."
 	]
 	quest.1D3C9B76D509ECFF.title: "Stone Age"
+	quest.1DA836963EDDAB49.quest_desc: [
+		"Charges items with FE. Check JEI for what else it can do."
+	]
+	quest.1DA836963EDDAB49.title: "Tesla Coil"
 	quest.1DADCD09D7D6EC0B.quest_desc: [
 		"Upgrade Inferium Essence into Prudentium with the Infusion Crystal."
 	]
@@ -300,6 +320,10 @@
 		"A Drone flies off and does whatever you programmed: dig, farm, fetch, build or fight."
 	]
 	quest.29D0506398277633.title: "Drones"
+	quest.29E09F0C3983039F.quest_desc: [
+		"From Create Crafts & Additions. The Rolling Mill turns ingots into rods and wires."
+	]
+	quest.29E09F0C3983039F.title: "Rolling Mill"
 	quest.2A7385E6E557C196.quest_desc: [
 		"Blazing Crystals unlock the Blazing tier. Check JEI for the orb recipe."
 	]
@@ -330,6 +354,10 @@
 		"Press Silicon with the Silicon Press."
 	]
 	quest.2EA8FA71CDE900BD.title: "Printed Silicon"
+	quest.2EC183BBC336E4C8.quest_desc: [
+		"A blaze that enchants items using liquid experience. JEI shows how to set it up."
+	]
+	quest.2EC183BBC336E4C8.title: "Blaze Enchanter"
 	quest.30C4E03AE6A1F963.quest_desc: [
 		"The Infusion Crystal turns 4 essence into 1 of the next tier."
 	]
@@ -378,6 +406,10 @@
 		"Universal Cables carry power to your machines."
 	]
 	quest.380622BEDAAFE792.title: "Universal Cable"
+	quest.38ED241A0E93D8FF.quest_desc: [
+		"From Create Enchantment Industry. It takes enchantments off items and turns them into liquid experience."
+	]
+	quest.38ED241A0E93D8FF.title: "Mechanical Grindstone"
 	quest.3905A67E9505A795.quest_desc: [
 		"Program drones by snapping puzzle pieces together in the Programmer."
 	]
@@ -408,6 +440,10 @@
 		"Marble is underground. You'll need plenty of it for altars."
 	]
 	quest.3B0E020D81CEB3A0.title: "Marble"
+	quest.3B7B9B74D3F49707.quest_desc: [
+		"Stores FE. Place them together to make one bigger battery."
+	]
+	quest.3B7B9B74D3F49707.title: "Accumulator"
 	quest.3BF98453A07E0300.quest_desc: [
 		"Mine Inferium Ore for Inferium Essence. It's the start of everything here."
 	]
@@ -803,6 +839,10 @@
 		"Gold, printed silicon and redstone make Logic Processors."
 	]
 	quest.7285D023ABB1DDD4.title: "Logic Processor"
+	quest.74CB2DC2187913CB.quest_desc: [
+		"Copies enchanted books and written books. JEI shows what it needs."
+	]
+	quest.74CB2DC2187913CB.title: "Printer"
 	quest.74DC85C5F824D015.quest_desc: [
 		"Almost everything in Create starts with Andesite Alloy: andesite and iron nuggets. Check JEI for the recipe."
 	]
@@ -831,6 +871,12 @@
 		"Capacitors go into the recipes for Powah's tiered blocks."
 	]
 	quest.77C8177C597F2039.title: "Capacitors"
+	quest.787876EEBF0448E2.quest_desc: [
+		"From Ars Energistique. Puts Source into your AE2 network so jars and machines can share it."
+		""
+		"This mod is still in beta, so keep backups of anything important."
+	]
+	quest.787876EEBF0448E2.title: "Source in ME"
 	quest.7A2739D417BFDA2E.quest_desc: [
 		"Your first spell book. Build spells from glyphs: a form, then effects."
 	]
@@ -873,6 +919,7 @@
 	task.14EB313834823D04.title: "Enter the Nether"
 	task.1757FDF6B4B9C596.title: "Got somewhere to sleep"
 	task.26F05EB701F39BF3.title: "Defeat the Naga"
+	task.2AAB5798E8EB94E7.title: "Craft any Elemental Focus"
 	task.303772BF98071D65.title: "Make a stone pickaxe"
 	task.3EA44DBE9ED0C237.title: "Enter the End"
 	task.44C6E77446473746.title: "Mine a diamond"
