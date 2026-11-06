@@ -1,12 +1,22 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/DistantHorizons.toml"
+hash = "a9ae26017e0cf55a353bb69c77cc25f25e74886e0105b303e9f912f40f9d44bc"
+preserve = true
+
+[[files]]
 file = "config/MouseTweaks.cfg"
 hash = "438de2af36bf905993252e5015ad3b2f907473f0ad2722d6c79185728bb9b20b"
 
 [[files]]
 file = "config/autoswap.json"
 hash = "c25c2f4beaff24b248686a7dd161912660e3ceb3f2a9203b9568896180b34ea0"
+preserve = true
+
+[[files]]
+file = "config/defaultoptions/keybindings.txt"
+hash = "a20a892c548eba26c9952bb6d669e6d677e9b185575de7317e6a54893770bd9b"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -87,6 +97,10 @@ hash = "cde976f9d95bc83704ab5f6b7ff233ff6f5d2f200d925a62de1680cd5632be07"
 [[files]]
 file = "config/ftbquests/quests/reward_tables/uncommon_crate.snbt"
 hash = "50c73bd1e95906ec902960e3ac35903665281967f108bfdda06c98188a111596"
+
+[[files]]
+file = "jarsrc.txt"
+hash = "c2cec1aaa7d411249e99ba3a271709267cb10d00c69df28bf360526150aa74ac"
 
 [[files]]
 file = "mods/aaron.pw.toml"

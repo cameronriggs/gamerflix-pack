@@ -1,0 +1,17 @@
+key_key.chat:key.keyboard.enter
+key_key.socialInteractions:key.keyboard.unknown
+key_key.pingwheel.ping_location:key.keyboard.t
+key_key.pingwheel.open_settings:key.keyboard.t:ALT
+key_key.voice_chat_settings:key.keyboard.v
+key_key.disable_voice_chat:key.keyboard.unknown
+key_key.ftbquests.quests:key.keyboard.p
+key_key.ftbquests.gui_editor.reward_tables:key.keyboard.unknown
+key_key.ftbquests.gui_quest_panel.edit_title:key.keyboard.unknown
+key_autoswap.key.open_config:key.keyboard.y
+key_keybind.ironjetpacks.engine:key.keyboard.e:CONTROL
+key_keybind.ironjetpacks.hover:key.keyboard.h:CONTROL
+key_iris.keybind.toggleShaders:key.keyboard.unknown
+key_iris.keybind.shaderPackSelection:key.keyboard.unknown
+key_accessories.key.open_accessories_screen:key.keyboard.unknown
+key_key.journeymap.create_waypoint:key.keyboard.unknown
+key_key.trashslot.toggle:key.keyboard.unknown

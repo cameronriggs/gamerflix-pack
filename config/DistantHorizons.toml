@@ -1,0 +1,7 @@
+_version = 5
+
+[client.advanced.debugging]
+	rendererMode = "DISABLED"
+
+[client.advanced.autoUpdater]
+	enableAutoUpdater = false
