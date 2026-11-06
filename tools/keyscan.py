@@ -26,25 +26,22 @@ def scan(name, data, mod):
             scan(n, z.read(n), mod)
         elif n.endswith(".class"):
             b = z.read(n)
-            if b"net/minecraft/client/KeyMapping" in b or b"KeyMappingHelper" in b or b"KeyBinding" in b:
+            if b"net/minecraft/client/KeyMapping" in b or b"KeyBinding" in b or b"KeyMapping" in b or "key" in n.lower().rsplit("/",1)[-1]:
                 dst = os.path.join("classes", mod, n)
                 os.makedirs(os.path.dirname(dst), exist_ok=True)
                 open(dst, "wb").write(b)
 for p in sorted(glob.glob("jars/*.jar")):
     mod = os.path.basename(p)[:-4]
     scan(p, open(p, "rb").read(), mod)
+full=open("keyscan_full.txt","w")
 for mod in sorted(os.listdir("classes")):
     srcdir = os.path.join("src", mod)
     subprocess.run(["java", "-jar", "vineflower.jar", "-log=ERROR", os.path.join("classes", mod), srcdir],
                    stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     for j in sorted(glob.glob(srcdir + "/**/*.java", recursive=True)):
-        lines = open(j, errors="replace").read().splitlines()
-        hits = [i for i, l in enumerate(lines) if re.search(r"KeyMapping\(|KeyBinding\(|InputConstants\.|GLFW\.|\"key\.|keybind", l)]
-        if not hits: continue
-        out.write(f"\n===== {mod} :: {j[len(srcdir)+1:]}\n")
-        shown = set()
-        for i in hits:
-            for k in range(max(0, i - 2), min(len(lines), i + 3)):
-                if k not in shown:
-                    shown.add(k); out.write(f"{k+1}: {lines[k]}\n")
+        t = open(j, errors="replace").read()
+        if not re.search(r"KeyMapping|KeyBind|keybind|KeyModifier|Keybind", t): continue
+        t = "\n".join(l for l in t.splitlines() if not l.startswith("import "))
+        full.write(f"\n===== {mod} :: {j[len(srcdir)+1:]}\n{t}\n")
+full.close()
 out.close()
