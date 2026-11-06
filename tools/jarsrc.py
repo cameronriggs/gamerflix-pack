@@ -10,9 +10,9 @@ for u in open("tools/jars.txt").read().split():
     for n in z.namelist():
         if n.endswith((".toml", ".json", ".txt", ".cfg", ".properties")) and "lang/" not in n and "models/" not in n and "textures/" not in n:
             out.write(f"\n===== {name} :: {n}\n{z.read(n).decode(errors='replace')[:3000]}\n")
-    d = "srcout/" + name
+    d = "srcout/" + name[:-4]
     os.makedirs(d, exist_ok=True)
-    cdir = "cls/" + name
+    cdir = "cls/" + name[:-4]
     for n in z.namelist():
         if n.endswith(".class"):
             os.makedirs(os.path.dirname(os.path.join(cdir, n)), exist_ok=True)
