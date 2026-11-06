@@ -6,10 +6,12 @@ for u in open("tools/jars.txt").read().split():
     os.makedirs("dl", exist_ok=True); p = "dl/" + name
     open(p, "wb").write(urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "gamerflix-keyscan"}), timeout=60).read())
     z = zipfile.ZipFile(p)
+    out.write(f"\n===== {name} :: LISTING\n" + "\n".join(z.namelist()[:300]) + "\n")
     for n in z.namelist():
         if n.endswith((".toml", ".json", ".txt", ".cfg", ".properties")) and "lang/" not in n and "models/" not in n and "textures/" not in n:
             out.write(f"\n===== {name} :: {n}\n{z.read(n).decode(errors='replace')[:3000]}\n")
     d = "srcout/" + name
+    os.makedirs(d, exist_ok=True)
     cdir = "cls/" + name
     for n in z.namelist():
         if n.endswith(".class"):
