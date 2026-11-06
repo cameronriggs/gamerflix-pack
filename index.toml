@@ -917,13 +917,18 @@ hash = "16d05386b8fd97a2768f391fe5a233be45a72ee396ac3ab2ab7bf034a4483015"
 metafile = true
 
 [[files]]
+file = "mods/silent-gear-catalog.pw.toml"
+hash = "28b6fd5df478fcf70ead1037d191af4f3857cc43fd993696fb5f11f0671a32f3"
+metafile = true
+
+[[files]]
 file = "mods/silent-gear.pw.toml"
-hash = "087ba9ed2ea4bfbf8e8ec6fafae467f4b4e8d262f46f8066e3f84dc5e231ec21"
+hash = "755810e71ed93c8c9b992a6163b5c3fe8fe27c5b46d075123e892f2d69a8b46c"
 metafile = true
 
 [[files]]
 file = "mods/silent-lib.pw.toml"
-hash = "d692170020a2e8b1dd1d0af610a14c25553bae66bb3f7372123115b5c7bc6157"
+hash = "c69dcffbc7e5fd5a78a8292d696d589be53e9a6c3edbb8317d9fc441b54589f9"
 metafile = true
 
 [[files]]
