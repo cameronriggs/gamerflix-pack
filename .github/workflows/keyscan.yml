@@ -1,4 +1,4 @@
-# Temporary: boot-tests a dedicated server with the staged pack. Not merged to main.
+# Temporary: boot-tests a dedicated server with the staged pack (rerun). Not merged to main.
 name: Key scan
 on:
   push:
