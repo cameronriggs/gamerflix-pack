@@ -1,0 +1,13 @@
+name = "JourneyMap Shared Maps"
+filename = "jmsharedmaps-1.8-1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/xHyp5AYg/versions/O117et6X/jmsharedmaps-1.8-1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "3e09237ff7d282cfa35ada3d30eff4cf61e34ad8983db83ea361ae31cb33e4e72344c8195611745b38f57037fa9823df664b2b7bf6ab1db3acafc05fe038a7ae"
+
+[update]
+[update.modrinth]
+mod-id = "xHyp5AYg"
+version = "O117et6X"

@@ -439,8 +439,18 @@ hash = "b0ecd8023bc70b12bc020dc93db81d2ef639f1e676569f6686749a506bf892bd"
 metafile = true
 
 [[files]]
+file = "mods/default-options.pw.toml"
+hash = "a6967d761dde867ccc1af53dc9f4e530eb9917a9cb21d0fc15708e8cd2c0f2ba"
+metafile = true
+
+[[files]]
 file = "mods/deimos.pw.toml"
 hash = "8fa452b9f04851f6c190c5e77caa0b81023e9f99b2c969ca28e92bca48748f02"
+metafile = true
+
+[[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "0c20fea3407ed0db85b4b171f1820a24987f2659946fadd30bae044205041b09"
 metafile = true
 
 [[files]]
@@ -654,6 +664,11 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "58333a1b7c35bd5940e63b498cf44da16b1f2464c73d72203d1fed84ccfd352a"
+metafile = true
+
+[[files]]
+file = "mods/journeymap-shared-maps.pw.toml"
+hash = "f65819cca906fab41a6bc8aa597eee402c8067899ab84aa05d5637f164a2a0b6"
 metafile = true
 
 [[files]]
