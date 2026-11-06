@@ -15,9 +15,9 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: '3.12' }
       - run: curl -sSL -o vineflower.jar https://repo1.maven.org/maven2/org/vineflower/vineflower/1.10.1/vineflower-1.10.1.jar
-      - run: python3 tools/keyscan.py
-      - run: wc -l keyscan.txt; grep '^!!' keyscan.txt || true
+      - run: python3 tools/jarsrc.py
+      - run: wc -l jarsrc.txt
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          gzip -k keyscan_full.txt; git add -f keyscan_full.txt.gz && git commit -m "Key scan output [skip ci]" && git push
+          gzip -kf jarsrc.txt; git add -f jarsrc.txt.gz && git commit -m "Key scan output [skip ci]" && git push
