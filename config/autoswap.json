@@ -12,7 +12,7 @@
   "replaceBrokenMainhand": true,
   "refillTorch": true,
   "refillBlocks": true,
-  "restoreSlotAfterAutoTool": false,
+  "restoreSlotAfterAutoTool": true,
   "doubleJumpWindowMs": 260,
   "offhandItems": [
     "minecraft:totem_of_undying"

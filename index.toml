@@ -6,7 +6,87 @@ hash = "438de2af36bf905993252e5015ad3b2f907473f0ad2722d6c79185728bb9b20b"
 
 [[files]]
 file = "config/autoswap.json"
-hash = "2e2397cc7e0e084d763434bea4ee2e22f04f223c45060df2863e9868457e2e9f"
+hash = "c25c2f4beaff24b248686a7dd161912660e3ceb3f2a9203b9568896180b34ea0"
+
+[[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/ae2.snbt"
+hash = "ec38ffcec588ee25c5259da105ce5271b714e2a1612c5175b51aa3ee559368e9"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/astral.snbt"
+hash = "41da35eb1179bff4c736c8e774bbe5aa6e39173877af5537c67bad0b3c2553df"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/create.snbt"
+hash = "3cb53f1638b12ce6ba5ad7bad9652886a4d4c5e9b77d6556712fc5f9f61ea616"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/cubits.snbt"
+hash = "1bab62fd4c3e3509c4051bcec1419c2039378b2fd3c668a55a1eef8daa736585"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/exploration.snbt"
+hash = "f205846d4054607c231c555b87d3cd0613f7e309cd48d8c3c01c3827092af450"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/industry.snbt"
+hash = "b39790dc9cb0c629c882410507288099d3e4ad559eae90f029983b1295cb9f0c"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/logistics.snbt"
+hash = "142c71c3a467469f56dc19cabe3920a2f04f7ca35092c83b7b1a7f40eae1da6a"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/magic.snbt"
+hash = "6fb4c28b0ef98de4a00b394d8e9fbc97cbe42685eb4ffa3ebe7bb25beb127133"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/mekanism.snbt"
+hash = "296dc9be534356de7a186da258adfab33932dc6f85b5fafebaeb8131f63ab605"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/minecolonies.snbt"
+hash = "7d688362338e22550c77d04d469e3e5c7a6fdd82360454e42cbeb91c5948a63a"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/mystical.snbt"
+hash = "e5c4dfc2bd7443f4c29cba2fcef85cf83b54fc289ad06a0052ba39ec639198f0"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/pneumaticcraft.snbt"
+hash = "d41fe8a4f839f38242997d3e5affa2eeb587273933ccd975d0f4ba8c6c21aa97"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/powah.snbt"
+hash = "467f97bd7b63180594f41096e967353f7ce0004b95e51808899e6ae72ec8e559"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/welcome.snbt"
+hash = "4c51ec3c4a95b2e898a2ce5b128cb872ed615c34846fe1a0a8762018bf1ae2d2"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+hash = "eee143070a902486a901afde0408b61db6b6b15079702ccbebab7fdfe091c020"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us.snbt"
+hash = "d1c77707292cbe9c17e3299f8143a8a1eff581c9ef46c35390eea9f79cb4bc12"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/common_crate.snbt"
+hash = "9dd6ef81bb8a985451c1c6b2d6834ff8a776a63269b80c0d581f0c72ab9a4c28"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/rare_crate.snbt"
+hash = "cde976f9d95bc83704ab5f6b7ff233ff6f5d2f200d925a62de1680cd5632be07"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/uncommon_crate.snbt"
+hash = "50c73bd1e95906ec902960e3ac35903665281967f108bfdda06c98188a111596"
 
 [[files]]
 file = "mods/aaron.pw.toml"
@@ -1055,83 +1135,3 @@ metafile = true
 file = "mods/zerocore.pw.toml"
 hash = "b51c9c50edbb8a8ef8823160e2cb5d6b1d20c06c5b86dc2d3541c456b8962ab3"
 metafile = true
-
-[[files]]
-file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
-
-[[files]]
-file = "config/ftbquests/quests/data.snbt"
-hash = "eee143070a902486a901afde0408b61db6b6b15079702ccbebab7fdfe091c020"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/common_crate.snbt"
-hash = "9dd6ef81bb8a985451c1c6b2d6834ff8a776a63269b80c0d581f0c72ab9a4c28"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/rare_crate.snbt"
-hash = "cde976f9d95bc83704ab5f6b7ff233ff6f5d2f200d925a62de1680cd5632be07"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/uncommon_crate.snbt"
-hash = "50c73bd1e95906ec902960e3ac35903665281967f108bfdda06c98188a111596"
-
-[[files]]
-file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "d1c77707292cbe9c17e3299f8143a8a1eff581c9ef46c35390eea9f79cb4bc12"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/ae2.snbt"
-hash = "ec38ffcec588ee25c5259da105ce5271b714e2a1612c5175b51aa3ee559368e9"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/astral.snbt"
-hash = "41da35eb1179bff4c736c8e774bbe5aa6e39173877af5537c67bad0b3c2553df"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "3cb53f1638b12ce6ba5ad7bad9652886a4d4c5e9b77d6556712fc5f9f61ea616"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/cubits.snbt"
-hash = "1bab62fd4c3e3509c4051bcec1419c2039378b2fd3c668a55a1eef8daa736585"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/exploration.snbt"
-hash = "f205846d4054607c231c555b87d3cd0613f7e309cd48d8c3c01c3827092af450"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/industry.snbt"
-hash = "b39790dc9cb0c629c882410507288099d3e4ad559eae90f029983b1295cb9f0c"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/logistics.snbt"
-hash = "142c71c3a467469f56dc19cabe3920a2f04f7ca35092c83b7b1a7f40eae1da6a"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/magic.snbt"
-hash = "6fb4c28b0ef98de4a00b394d8e9fbc97cbe42685eb4ffa3ebe7bb25beb127133"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/mekanism.snbt"
-hash = "296dc9be534356de7a186da258adfab33932dc6f85b5fafebaeb8131f63ab605"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/minecolonies.snbt"
-hash = "7d688362338e22550c77d04d469e3e5c7a6fdd82360454e42cbeb91c5948a63a"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/mystical.snbt"
-hash = "e5c4dfc2bd7443f4c29cba2fcef85cf83b54fc289ad06a0052ba39ec639198f0"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/pneumaticcraft.snbt"
-hash = "d41fe8a4f839f38242997d3e5affa2eeb587273933ccd975d0f4ba8c6c21aa97"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/powah.snbt"
-hash = "467f97bd7b63180594f41096e967353f7ce0004b95e51808899e6ae72ec8e559"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/welcome.snbt"
-hash = "4c51ec3c4a95b2e898a2ce5b128cb872ed615c34846fe1a0a8762018bf1ae2d2"
