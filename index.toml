@@ -99,10 +99,6 @@ file = "config/ftbquests/quests/reward_tables/uncommon_crate.snbt"
 hash = "50c73bd1e95906ec902960e3ac35903665281967f108bfdda06c98188a111596"
 
 [[files]]
-file = "jarsrc.txt"
-hash = "c2cec1aaa7d411249e99ba3a271709267cb10d00c69df28bf360526150aa74ac"
-
-[[files]]
 file = "mods/aaron.pw.toml"
 hash = "4f68f3d076e1f805dfdc1e179b2b64969d319c9af395c2cd7d36f678bc017235"
 metafile = true
