@@ -27,6 +27,10 @@
 		"Grow your resources. Iron, diamonds, even mob drops, all from seeds."
 	]
 	chapter.4050850718880254.title: "Mystical Agriculture"
+	chapter.427ADB800DEECD4B.chapter_subtitle: [
+		"Starlight magic. Gather it at night under open sky, attune to a constellation and craft at ever bigger altars."
+	]
+	chapter.427ADB800DEECD4B.title: "Astral Sorcery"
 	chapter.4C8AC3FFBF222CC2.chapter_subtitle: [
 		"Powah! Simple generators, cables and the Energizing Orb. Its power runs most machines in the pack."
 	]
@@ -35,6 +39,10 @@
 		"Cameron's own mod. Build little robot cubes that mine, farm, haul and fight for you."
 	]
 	chapter.5A31BBE6F6B06D9B.title: "Cubits"
+	chapter.5D5CFBAE8B099591.chapter_subtitle: [
+		"Machines that run on air pressure: pressure chambers, oil, circuits and drones."
+	]
+	chapter.5D5CFBAE8B099591.title: "PneumaticCraft"
 	chapter.70AE4B54566C9651.chapter_subtitle: [
 		"Digital storage. Put your whole base in a network you can search and autocraft from."
 	]
@@ -43,7 +51,17 @@
 		"Start here. The basics of the server and the pack's everyday helpers."
 	]
 	chapter.729970770370187A.title: "Welcome to Gamerflix"
+	chapter.7943A85730E25066.chapter_subtitle: [
+		"Gears, belts and contraptions. Build machines you can watch work, all the way up to trains."
+	]
+	chapter.7943A85730E25066.title: "Create"
 	file.0000000000000001.title: "Gamerflix"
+	quest.100D00583BDAFD0C.quest_desc: [
+		"Lay track, build a train with controls on a station, and ride it."
+		""
+		"Trains run on their own schedules too, so you can move goods between bases."
+	]
+	quest.100D00583BDAFD0C.title: "All Aboard"
 	quest.1093C76E0540B101.quest_desc: [
 		"The Survey Module maps the ground your Cubit drives past for the Command Center, and doubles how far its mining tools look for ore."
 	]
@@ -58,14 +76,30 @@
 		"Upgrade it later with iron, gold and diamonds, and add upgrades like Pickup and Magnet."
 	]
 	quest.11AB6FA35821CCC7.title: "Pack It Up"
+	quest.11CF66FCEA5B6571.quest_desc: [
+		"Expose an Empty PCB in the UV Light Box, then etch it. JEI shows each step."
+	]
+	quest.11CF66FCEA5B6571.title: "Circuit Boards"
 	quest.1270CDF66677BE4C.quest_desc: [
 		"Your first spell book. Wear it in its Curios slot and cast its spells."
 	]
 	quest.1270CDF66677BE4C.title: "Copper Spell Book"
+	quest.12D9655127465E6F.quest_desc: [
+		"Aquamarine comes from Aquamarine Shale."
+	]
+	quest.12D9655127465E6F.title: "Aquamarine"
 	quest.130E9618A70188CB.quest_desc: [
 		"Turn latex into rubber. Check JEI for the steps to plastic."
 	]
 	quest.130E9618A70188CB.title: "Latex Processing"
+	quest.131E0527D8540E68.quest_desc: [
+		"Tools made from rock crystal. Better crystals make better tools."
+	]
+	quest.131E0527D8540E68.title: "Crystal Tools"
+	quest.13DB7ACBA496150C.quest_desc: [
+		"A Deployer uses the item in its hand like a player would."
+	]
+	quest.13DB7ACBA496150C.title: "Deployer"
 	quest.1405071617D1993D.quest_desc: [
 		"Source Jars store source for your magic blocks. Sourcelinks fill them."
 	]
@@ -78,6 +112,10 @@
 		"Arcane Essence powers most of Iron's Spells 'n Spellbooks. Check JEI for where it comes from."
 	]
 	quest.1542D3AAFDA7CA8E.title: "Iron's Spells"
+	quest.15622B32B0AAA41A.quest_desc: [
+		"A Steam Engine on a water-filled Fluid Tank, heated by Blaze Burners, makes a lot of rotation. More heat and a bigger tank give more."
+	]
+	quest.15622B32B0AAA41A.title: "Steam Engine"
 	quest.1576D6AE3BBC4892.quest_desc: [
 		"Essence Farmland gives a bonus to crops of the same tier planted on it."
 	]
@@ -102,6 +140,10 @@
 		"Right-click a pipe connection with the Wrench to disconnect it."
 	]
 	quest.1753C7DEC698538C.title: "Wrench"
+	quest.17A764FB796B0A26.quest_desc: [
+		"Iron ore or raw iron left in the starlight turns into Starmetal. Smelt it like any ore."
+	]
+	quest.17A764FB796B0A26.title: "Starmetal"
 	quest.17B4F2E86BADA692.quest_desc: [
 		"Speed Upgrades make the router tick faster."
 	]
@@ -136,6 +178,10 @@
 		"The Enchanting Apparatus sits on an Arcane Core with pedestals around it. It crafts most of Ars Nouveau's gear."
 	]
 	quest.1A071DAA5EB74196.title: "Enchanting Apparatus"
+	quest.1A355DC907F51396.quest_desc: [
+		"A Mixer over a Basin mixes ingredients into new things."
+	]
+	quest.1A355DC907F51396.title: "Mixer and Basin"
 	quest.1B95588DF992F7FB.quest_desc: [
 		"The Command Table is the heart of a Command Center: a live map of your rigs that you can send orders from."
 		""
@@ -144,6 +190,14 @@
 		"Command Cable only matters when Command Center pieces don't touch the table."
 	]
 	quest.1B95588DF992F7FB.title: "Command Center"
+	quest.1BD484E08BBCEDE6.quest_desc: [
+		"Mix copper and zinc in a heated basin to make Brass. It unlocks Create's better machines."
+	]
+	quest.1BD484E08BBCEDE6.title: "Brass"
+	quest.1BD50E76E8122BDD.quest_desc: [
+		"A helmet full of upgrades: night vision, scanners for ore and mobs, and more. Charge it with air."
+	]
+	quest.1BD50E76E8122BDD.title: "Pneumatic Helmet"
 	quest.1C21EC77333DEAB4.quest_desc: [
 		"Solar panels make power in daylight. No fuel needed."
 	]
@@ -152,6 +206,10 @@
 		"Rituals use a Golden Sacrificial Bowl in the middle, plain bowls around it and a chalk pentacle on the ground."
 	]
 	quest.1C94EBC67867327B.title: "Sacrificial Bowl"
+	quest.1CA9D56DDCFE4752.quest_desc: [
+		"Wear the goggles to see how fast things spin and how much stress your network can take."
+	]
+	quest.1CA9D56DDCFE4752.title: "Engineer's Goggles"
 	quest.1D3C9B76D509ECFF.quest_desc: [
 		"Upgrade to a stone pickaxe."
 	]
@@ -160,6 +218,10 @@
 		"Upgrade Inferium Essence into Prudentium with the Infusion Crystal."
 	]
 	quest.1DADCD09D7D6EC0B.title: "Prudentium"
+	quest.1DFAD0EA5AFF08AD.quest_desc: [
+		"Blow a fan through lava to smelt, through fire to smoke food, or through water to wash ores. It works on whole stacks at once."
+	]
+	quest.1DFAD0EA5AFF08AD.title: "Bulk Processing"
 	quest.1E1033E87E925F88.quest_desc: [
 		"Residences house your colonists. More houses, more workers."
 	]
@@ -176,6 +238,10 @@
 		"The Crafting Station keeps its grid when you close it, and uses items from chests placed next to it."
 	]
 	quest.1FB2071BD2EA62FF.title: "Smarter Crafting"
+	quest.1FC6A087DF117C3B.quest_desc: [
+		"Astral Sorcery's book. It explains everything, and new pages open as you go."
+	]
+	quest.1FC6A087DF117C3B.title: "The Tome"
 	quest.2070FBCE8AF99593.quest_desc: [
 		"The goggles let you see the Otherworld without eating anything strange."
 	]
@@ -200,6 +266,10 @@
 		"Link the Rig Remote to your Cubits and rigs to give them orders from a distance."
 	]
 	quest.23CDEF1C40F1F1C2.title: "Rig Remote"
+	quest.243088EDB607A384.quest_desc: [
+		"Attune yourself to one constellation. Each one makes you stronger in its own way."
+	]
+	quest.243088EDB607A384.title: "Attunement Altar"
 	quest.25240CDB5759D1CD.quest_desc: [
 		"Almost every Mekanism machine is built on a Steel Casing."
 	]
@@ -212,6 +282,10 @@
 		"Smelt your first iron ingot. Iron opens up almost every mod in the pack, Cubits included."
 	]
 	quest.274FD09F0089B0CE.title: "Acquire Hardware"
+	quest.281A3C05A751A9F1.quest_desc: [
+		"Look for oil lakes in the world. Oil is refined into fuels and plastic."
+	]
+	quest.281A3C05A751A9F1.title: "Oil"
 	quest.2867DAFFD45E0D1C.quest_desc: [
 		"Drop Charged Certus Quartz, Redstone and Nether Quartz into water together to make Fluix Crystals."
 	]
@@ -222,6 +296,10 @@
 		"The Combustion Generator burns fuel and the Lava Generator burns lava if you need more."
 	]
 	quest.2963259125F7E6E8.title: "Power Up"
+	quest.29D0506398277633.quest_desc: [
+		"A Drone flies off and does whatever you programmed: dig, farm, fetch, build or fight."
+	]
+	quest.29D0506398277633.title: "Drones"
 	quest.2A7385E6E557C196.quest_desc: [
 		"Blazing Crystals unlock the Blazing tier. Check JEI for the orb recipe."
 	]
@@ -244,6 +322,10 @@
 		"The Terminal shows everything in your network. Type to search."
 	]
 	quest.2CA57539B45E3B72.title: "ME Terminal"
+	quest.2D5878004C2B3F16.quest_desc: [
+		"Plastic is the base of circuit boards and drones."
+	]
+	quest.2D5878004C2B3F16.title: "Plastic"
 	quest.2EA8FA71CDE900BD.quest_desc: [
 		"Press Silicon with the Silicon Press."
 	]
@@ -256,10 +338,18 @@
 		"The Outrider scouts ahead and pings the ores you've ticked in its marks list."
 	]
 	quest.31AEC39DF4D3C5BE.title: "Outrider"
+	quest.31C1C87A1236A0C7.quest_desc: [
+		"Pressure Tubes carry air between machines. Too much pressure and things blow up, so watch the numbers."
+	]
+	quest.31C1C87A1236A0C7.title: "Pressure Tubes"
 	quest.32D718193E0AD5E0.quest_desc: [
 		"The Spotter flies alongside you, fetches your arrows and warns you about what's behind you."
 	]
 	quest.32D718193E0AD5E0.title: "Spotter"
+	quest.3431ACC5BEBCEEA4.quest_desc: [
+		"The arm picks items up from one spot and drops them off at another. Pick the spots by clicking them while holding the arm."
+	]
+	quest.3431ACC5BEBCEEA4.title: "Mechanical Arm"
 	quest.34AF44F58A2F2952.quest_desc: [
 		"Reach your network from anywhere in range of a Wireless Access Point. Link the terminal to your network at the access point."
 	]
@@ -268,10 +358,18 @@
 		"Build a portal frame of Glowstone and use a Water Bucket on it."
 	]
 	quest.3651D88D69718A0E.title: "The Aether"
+	quest.36D4CC35FDD3E311.quest_desc: [
+		"The Air Compressor burns fuel to make pressure."
+	]
+	quest.36D4CC35FDD3E311.title: "Air Compressor"
 	quest.37603ABD8657D6AD.quest_desc: [
 		"Iron Furnaces smelt faster than a normal furnace. Upgrade them all the way up the tiers later."
 	]
 	quest.37603ABD8657D6AD.title: "Faster Furnaces"
+	quest.376F6AC36F2D444D.quest_desc: [
+		"Throw the ingredients in one pile on open ground where starlight gathers, then step back and wait. The Tome shows how."
+	]
+	quest.376F6AC36F2D444D.title: "Resonating Wand"
 	quest.378F3436C7FAA833.quest_desc: [
 		"Your Builder builds and upgrades every other hut. Build this one first and keep them stocked."
 	]
@@ -280,6 +378,10 @@
 		"Universal Cables carry power to your machines."
 	]
 	quest.380622BEDAAFE792.title: "Universal Cable"
+	quest.3905A67E9505A795.quest_desc: [
+		"Program drones by snapping puzzle pieces together in the Programmer."
+	]
+	quest.3905A67E9505A795.title: "Programmer"
 	quest.3986A1817249FAC9.quest_desc: [
 		"The Cubit Dock is home for your Cubits."
 		""
@@ -302,6 +404,10 @@
 		"The Metallurgic Infuser infuses metals. It needs power, so set up a generator first (the Power chapter has a few)."
 	]
 	quest.3AE8126F217C0420.title: "Metallurgic Infuser"
+	quest.3B0E020D81CEB3A0.quest_desc: [
+		"Marble is underground. You'll need plenty of it for altars."
+	]
+	quest.3B0E020D81CEB3A0.title: "Marble"
 	quest.3BF98453A07E0300.quest_desc: [
 		"Mine Inferium Ore for Inferium Essence. It's the start of everything here."
 	]
@@ -322,6 +428,10 @@
 		"The Naga is the Twilight Forest's first boss. Look for its courtyard."
 	]
 	quest.3F7A54FE622B6CD2.title: "The Naga"
+	quest.40649857D0BA8AB2.quest_desc: [
+		"Mine Rock Crystal Ore. Crystals hold starlight."
+	]
+	quest.40649857D0BA8AB2.title: "Rock Crystal"
 	quest.42164284BD1B44DB.quest_desc: [
 		"The Configurator sets which sides of a machine take items in and push them out."
 	]
@@ -330,6 +440,10 @@
 		"The Town Hall is the center of your colony. Place it with the Build Tool."
 	]
 	quest.427A7892E4195501.title: "Town Hall"
+	quest.42804CC10A9299F0.quest_desc: [
+		"Catch a blaze in an Empty Blaze Burner and feed it fuel. Many basin recipes need the heat."
+	]
+	quest.42804CC10A9299F0.title: "Blaze Burner"
 	quest.438467349720D200.quest_desc: [
 		"More spell slots."
 	]
@@ -350,6 +464,10 @@
 		"A key ingredient for higher rituals and storage."
 	]
 	quest.44970D1305460FD4.title: "Spirit Attuned Gem"
+	quest.44F82CF3E4DF6FBD.quest_desc: [
+		"Soaks items in Liquid Starlight to change them."
+	]
+	quest.44F82CF3E4DF6FBD.title: "Starlight Infuser"
 	quest.451F74FB05791F8E.quest_desc: [
 		"A Mini Chest holds a single stack. One chest crafts into nine of them."
 	]
@@ -358,6 +476,10 @@
 		"The Dictionary of Spirits is Occultism's guide. It walks you through summoning spirits to work for you."
 	]
 	quest.4654E7A3F0D6CDF9.title: "Occultism"
+	quest.4829AB10ED54A06D.quest_desc: [
+		"Uses heat and pressure to turn fluids into new things, like the liquid that sets into plastic."
+	]
+	quest.4829AB10ED54A06D.title: "Thermopneumatic Plant"
 	quest.4943C8B5863A0B33.quest_desc: [
 		"Welcome to the Gamerflix server!"
 		""
@@ -413,6 +535,10 @@
 		"Almost everything in Powah starts with Dielectric Paste. Check JEI for the recipe."
 	]
 	quest.4E39C6A4885F8449.title: "Dielectric Paste"
+	quest.4E509BCBB7A12AEB.quest_desc: [
+		"The last altar. It crafts the mod's strongest items."
+	]
+	quest.4E509BCBB7A12AEB.title: "Iridescent Crafting Altar"
 	quest.4E516C06E4540481.quest_desc: [
 		"Upgrade and imbue your gear with spells at the Arcane Anvil."
 	]
@@ -457,14 +583,30 @@
 		"The Purification Chamber uses oxygen to get three ingots per ore."
 	]
 	quest.549B08DC03B274B4.title: "Triple Ores"
+	quest.54DC5DF699292CC7.quest_desc: [
+		"Precision Mechanisms are made by sequenced assembly: the same part passes through a press and deployers several times. JEI shows every step."
+	]
+	quest.54DC5DF699292CC7.title: "Precision Mechanism"
+	quest.554B150C1D212231.quest_desc: [
+		"Drills break whatever is in front of them. Put them on a moving contraption to mine as it goes."
+	]
+	quest.554B150C1D212231.title: "Mechanical Drill"
 	quest.559684966389B195.quest_desc: [
 		"The Forester chops trees and replants them."
 	]
 	quest.559684966389B195.title: "Forester"
+	quest.56B87F9F8CF667AF.quest_desc: [
+		"Blow up iron ingots with TNT to make Compressed Iron. Some of the iron is lost in the blast, so bring extra."
+	]
+	quest.56B87F9F8CF667AF.title: "Compressed Iron"
 	quest.5782155BFF7295CF.quest_desc: [
 		"A powered tool that's a pickaxe, axe and shovel in one. Charge it in an Energy Cube."
 	]
 	quest.5782155BFF7295CF.title: "Atomic Disassembler"
+	quest.58FD7F499321770F.quest_desc: [
+		"Makes air faster and handles higher pressure."
+	]
+	quest.58FD7F499321770F.title: "Advanced Compressor"
 	quest.5917D2194EC157EA.quest_desc: [
 		"Plant Inferium Seeds to grow more essence."
 	]
@@ -501,14 +643,36 @@
 		"Infuse iron with carbon (coal or charcoal) to make Steel Dust, then smelt it. JEI shows each step."
 	]
 	quest.5D10DA2D12A78532.title: "Steel"
+	quest.5D5BBE70C671F344.quest_desc: [
+		"Leave a crafting table and marble in the same kind of starlight pile, and it learns to listen to the stars."
+	]
+	quest.5D5BBE70C671F344.title: "Illuminated Crafting Table"
 	quest.5F3518BE12C6DCB1.quest_desc: [
 		"Oritech's Basic Generator burns fuel for power."
 	]
 	quest.5F3518BE12C6DCB1.title: "Oritech: Basic Generator"
+	quest.600BF2F4827404CC.quest_desc: [
+		"Build a hollow cube out of chamber walls and glass, with a valve to feed it air. Items go in and out through interfaces."
+		""
+		"Many of the mod's parts are made inside it. JEI shows the pressure each recipe needs."
+	]
+	quest.600BF2F4827404CC.title: "Pressure Chamber"
+	quest.6024F07D67001833.quest_desc: [
+		"Stack outputs on the Refinery to split oil into fuels. It needs heat."
+	]
+	quest.6024F07D67001833.title: "Refinery"
 	quest.60C661188022261E.quest_desc: [
 		"Datura seeds grow Demon's Dream. Read the Dictionary to find out what it's for."
 	]
 	quest.60C661188022261E.title: "Demon's Dream"
+	quest.60C763C6290DC3E5.quest_desc: [
+		"The Schematicannon builds saved structures for you, block by block, from the materials you give it."
+	]
+	quest.60C763C6290DC3E5.title: "Schematics"
+	quest.61B137CE582FF26F.quest_desc: [
+		"The assembly line drills and lasers parts into shape for you."
+	]
+	quest.61B137CE582FF26F.title: "Assembly Line"
 	quest.61D51B2812955A8F.quest_desc: [
 		"Place Energizing Rods near the Energizing Orb and power the rods."
 		""
@@ -559,6 +723,10 @@
 		"The Foundry melts metals together into alloys."
 	]
 	quest.67503BBE18C804B5.title: "Foundry"
+	quest.675140448B8961C6.quest_desc: [
+		"Item Vaults hold a lot and join into bigger vaults when placed together."
+	]
+	quest.675140448B8961C6.title: "Item Vault"
 	quest.67A31BAC6273AD49.quest_desc: [
 		"Wear the Angel Ring in its Curios slot to fly in survival. The recipe is expensive on purpose."
 	]
@@ -573,6 +741,18 @@
 		"Teleporting is free on this server."
 	]
 	quest.686FE75AA3C62C8D.title: "Waystones"
+	quest.6941B3586DB9417A.quest_desc: [
+		"Upgrade the table in place. It crafts more and bigger things."
+	]
+	quest.6941B3586DB9417A.title: "Resonating Crafting Table"
+	quest.6A0AE011F37924B8.quest_desc: [
+		"Mechanical Crafters work together as a big crafting grid, and some recipes only work here."
+	]
+	quest.6A0AE011F37924B8.title: "Mechanical Crafters"
+	quest.6BEE70BFE897D157.quest_desc: [
+		"Use belts between two shafts to move items along a line."
+	]
+	quest.6BEE70BFE897D157.title: "Belts"
 	quest.6BF35AC39582EC55.quest_desc: [
 		"A Depot holds 54 stacks a block."
 		""
@@ -591,6 +771,10 @@
 		"Hungry colonists don't work. A Farmer keeps them fed."
 	]
 	quest.6F2E723F0AEAD0A7.title: "Farmer"
+	quest.6F3781CE870655AD.quest_desc: [
+		"The next altar up. It needs a bigger structure around it, Stardust and Liquid Starlight. The Tome has the layout."
+	]
+	quest.6F3781CE870655AD.title: "Luminous Crafting Altar"
 	quest.6FC1A2FAC770A51C.quest_desc: [
 		"Write recipes onto Blank Patterns in the Pattern Encoding Terminal."
 	]
@@ -599,6 +783,14 @@
 		"Find a meteorite crater. Under the Sky Stone is a Mysterious Cube with the four Inscriber Presses inside. You need them all."
 	]
 	quest.71AD9181DEB63C62.title: "Meteorite"
+	quest.71B18971AB485FA6.quest_desc: [
+		"Put a Depot under a Press to flatten ingots into sheets. Iron sheets go into a lot of recipes."
+	]
+	quest.71B18971AB485FA6.title: "Mechanical Press"
+	quest.71F216CDEFDF1C1F.quest_desc: [
+		"Put a crystal or Aquamarine in the Lightwell and it slowly gives up Liquid Starlight."
+	]
+	quest.71F216CDEFDF1C1F.title: "Lightwell"
 	quest.71FA1B2EB0166CF1.quest_desc: [
 		"Draw pentacles with chalk. The Dictionary shows the shapes."
 	]
@@ -611,6 +803,10 @@
 		"Gold, printed silicon and redstone make Logic Processors."
 	]
 	quest.7285D023ABB1DDD4.title: "Logic Processor"
+	quest.74DC85C5F824D015.quest_desc: [
+		"Almost everything in Create starts with Andesite Alloy: andesite and iron nuggets. Check JEI for the recipe."
+	]
+	quest.74DC85C5F824D015.title: "Andesite Alloy"
 	quest.75BA88591F63F534.quest_desc: [
 		"Build a portal out of obsidian and light it."
 	]
@@ -639,6 +835,12 @@
 		"Your first spell book. Build spells from glyphs: a form, then effects."
 	]
 	quest.7A2739D417BFDA2E.title: "Novice Spell Book"
+	quest.7AC5D20C1989AD06.quest_desc: [
+		"Shafts and cogwheels carry rotation from block to block."
+		""
+		"A large cog next to a small one changes the speed."
+	]
+	quest.7AC5D20C1989AD06.title: "Shafts and Cogs"
 	quest.7BCF092F3DCAFF55.quest_desc: [
 		"Build a frame of Stone Bricks and light it with the Catalyst."
 	]
@@ -647,6 +849,10 @@
 		"Store power in an Energy Cube. It can charge items too."
 	]
 	quest.7CD1BC63BF7BE58C.title: "Energy Cube"
+	quest.7CFAF116A2C53AC5.quest_desc: [
+		"Polished Rose Quartz and an iron sheet make Electron Tubes, used in the smarter blocks."
+	]
+	quest.7CFAF116A2C53AC5.title: "Electron Tube"
 	quest.7DAC0F5CFB10B973.quest_desc: [
 		"The Reel Header harvests ripe crops in its work area and replants them."
 		""
@@ -657,6 +863,10 @@
 		"Mekanism runs on Osmium. Mine Osmium ore and smelt it."
 	]
 	quest.7F1C7762E1939795.title: "Osmium"
+	quest.7F1CBB1826A8E444.quest_desc: [
+		"Running water turns a Water Wheel and gives you free rotation. Windmills come later for more power."
+	]
+	quest.7F1CBB1826A8E444.title: "Water Wheel"
 	reward_table.103EF263F865E704.title: "Common Crate"
 	reward_table.55B900E76DF71D9C.title: "Rare Crate"
 	reward_table.5923F263BB2CB2FA.title: "Uncommon Crate"

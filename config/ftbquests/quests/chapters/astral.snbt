@@ -1,0 +1,222 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "astral"
+	group: ""
+	icon: { id: "astralsorcery:tome" }
+	id: "427ADB800DEECD4B"
+	images: [ ]
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"53746E014F82C328"
+			]
+			id: "1FC6A087DF117C3B"
+			rewards: [
+				{ id: "35A0D1C345A73DBD", type: "xp", xp: 50 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ count: 1L, id: "140302B41C9639CC", item: { id: "astralsorcery:tome" }, type: "item" }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1FC6A087DF117C3B"
+			]
+			id: "3B0E020D81CEB3A0"
+			rewards: [
+				{ id: "11C8AD8877D4C513", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ count: 16L, id: "35A72A609B205303", item: { id: "astralsorcery:marble_raw" }, type: "item" }
+			]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"1FC6A087DF117C3B"
+			]
+			id: "40649857D0BA8AB2"
+			rewards: [
+				{ id: "17DC28D2660657DB", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ count: 1L, id: "23D461ACB77EC97B", item: { id: "astralsorcery:rock_crystal" }, type: "item" }
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1FC6A087DF117C3B"
+			]
+			id: "12D9655127465E6F"
+			rewards: [
+				{ id: "5EF1F7341DFDA426", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ count: 4L, id: "6CABDDED6279A0BF", item: { id: "astralsorcery:aquamarine" }, type: "item" }
+			]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"40649857D0BA8AB2"
+				"12D9655127465E6F"
+			]
+			id: "376F6AC36F2D444D"
+			rewards: [
+				{ id: "62B20FDB9A157526", table_id: 1170639464346019588L, type: "loot" }
+				{ id: "6DFAE9E705AB9FF1", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ count: 1L, id: "1D36931849B01141", item: { id: "astralsorcery:wand" }, type: "item" }
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"376F6AC36F2D444D"
+				"3B0E020D81CEB3A0"
+			]
+			id: "5D5BBE70C671F344"
+			rewards: [
+				{ id: "33C01788726199EB", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ count: 1L, id: "153C0195261F2F44", item: { id: "astralsorcery:altar_illumination" }, type: "item" }
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5D5BBE70C671F344"
+			]
+			id: "71F216CDEFDF1C1F"
+			rewards: [
+				{ id: "19F631C562FC6C16", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ count: 1L, id: "27F5E1D943D5C557", item: { id: "astralsorcery:lightwell" }, type: "item" }
+			]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5D5BBE70C671F344"
+			]
+			id: "17A764FB796B0A26"
+			rewards: [
+				{ id: "132C76F3E2ED0979", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ count: 4L, id: "1ED640DCE971B62A", item: { id: "astralsorcery:starmetal_ingot" }, type: "item" }
+			]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5D5BBE70C671F344"
+			]
+			id: "131E0527D8540E68"
+			optional: true
+			rewards: [
+				{ id: "31B066698A6E69FE", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ count: 1L, id: "3374DA5556358EA0", item: { id: "astralsorcery:crystal_pickaxe" }, type: "item" }
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"17A764FB796B0A26"
+				"71F216CDEFDF1C1F"
+			]
+			id: "6941B3586DB9417A"
+			rewards: [
+				{ id: "3AAB8FD9E2E25EEC", table_id: 6423244003716412154L, type: "loot" }
+				{ id: "3EE41D35C987A087", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ count: 1L, id: "6F210BFEA1B51477", item: { id: "astralsorcery:altar_resonance" }, type: "item" }
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6941B3586DB9417A"
+			]
+			id: "44F82CF3E4DF6FBD"
+			rewards: [
+				{ id: "7AB6FB6A871D834C", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ count: 1L, id: "1E7BD52C792FEB7A", item: { id: "astralsorcery:infuser" }, type: "item" }
+			]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6941B3586DB9417A"
+			]
+			id: "6F3781CE870655AD"
+			rewards: [
+				{ id: "725603AC3213B844", table_id: 6423244003716412154L, type: "loot" }
+				{ id: "12C110181275E5F8", type: "xp", xp: 200 }
+			]
+			tasks: [
+				{ count: 1L, id: "2C4B980F111D7181", item: { id: "astralsorcery:altar_luminance" }, type: "item" }
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6F3781CE870655AD"
+			]
+			id: "243088EDB607A384"
+			rewards: [
+				{ id: "161F216531B44458", table_id: 6176969357897702812L, type: "loot" }
+				{ id: "723DFD96054A5A58", type: "xp", xp: 250 }
+			]
+			tasks: [
+				{ count: 1L, id: "6A423E644B9BA9AD", item: { id: "astralsorcery:attunement_altar" }, type: "item" }
+			]
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6F3781CE870655AD"
+			]
+			id: "4E509BCBB7A12AEB"
+			rewards: [
+				{ id: "1E865F164EBEAC89", table_id: 6176969357897702812L, type: "loot" }
+				{ id: "39BACA875165EB70", type: "xp", xp: 500 }
+			]
+			shape: "gear"
+			size: 1.75d
+			tasks: [
+				{ count: 1L, id: "1D0F0B78D55573C0", item: { id: "astralsorcery:altar_radiance" }, type: "item" }
+			]
+			x: 16.0d
+			y: 0.0d
+		}
+	]
+}

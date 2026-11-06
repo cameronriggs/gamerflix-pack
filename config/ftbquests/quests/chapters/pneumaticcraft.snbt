@@ -1,0 +1,226 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pneumaticcraft"
+	group: ""
+	icon: { id: "pneumaticcraft:air_compressor" }
+	id: "5D5CFBAE8B099591"
+	images: [ ]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"274FD09F0089B0CE"
+			]
+			id: "56B87F9F8CF667AF"
+			rewards: [
+				{ id: "5E47452BEF8E7782", type: "xp", xp: 50 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ count: 8L, id: "24C5D8144CBB3410", item: { id: "pneumaticcraft:ingot_iron_compressed" }, type: "item" }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"56B87F9F8CF667AF"
+			]
+			id: "36D4CC35FDD3E311"
+			rewards: [
+				{ id: "5BCBF0DCFAF60531", table_id: 1170639464346019588L, type: "loot" }
+				{ id: "50603D98DABDAF21", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ count: 1L, id: "13D0D683C0BA8F36", item: { id: "pneumaticcraft:air_compressor" }, type: "item" }
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"56B87F9F8CF667AF"
+			]
+			id: "31C1C87A1236A0C7"
+			rewards: [
+				{ id: "46ED76B4BF48B8B7", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ count: 8L, id: "372735D1E3091758", item: { id: "pneumaticcraft:pressure_tube" }, type: "item" }
+				{ count: 1L, id: "4A15E0993576A2C6", item: { id: "pneumaticcraft:pneumatic_wrench" }, type: "item" }
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"36D4CC35FDD3E311"
+				"31C1C87A1236A0C7"
+			]
+			id: "600BF2F4827404CC"
+			rewards: [
+				{ id: "4AF5532849C5C11D", table_id: 6423244003716412154L, type: "loot" }
+				{ id: "14A9F162CAF43052", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ count: 16L, id: "17F3F20CF8EA5B72", item: { id: "pneumaticcraft:pressure_chamber_wall" }, type: "item" }
+				{ count: 1L, id: "1AB1CC8868C333AE", item: { id: "pneumaticcraft:pressure_chamber_valve" }, type: "item" }
+				{ count: 2L, id: "18CA7D200F90709A", item: { id: "pneumaticcraft:pressure_chamber_interface" }, type: "item" }
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"600BF2F4827404CC"
+			]
+			id: "58FD7F499321770F"
+			rewards: [
+				{ id: "15BA1F3AD38076B4", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ count: 1L, id: "2750930CA56858F1", item: { id: "pneumaticcraft:advanced_air_compressor" }, type: "item" }
+			]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"600BF2F4827404CC"
+			]
+			id: "281A3C05A751A9F1"
+			rewards: [
+				{ id: "44FC24E3B6A69B74", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ count: 1L, id: "384825B053355291", item: { id: "pneumaticcraft:oil_bucket" }, type: "item" }
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"281A3C05A751A9F1"
+			]
+			id: "6024F07D67001833"
+			rewards: [
+				{ id: "27C9542CD10E85BC", table_id: 6423244003716412154L, type: "loot" }
+				{ id: "6021AC1596BE3A11", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ count: 1L, id: "13D582F4A93D95DC", item: { id: "pneumaticcraft:refinery" }, type: "item" }
+				{ count: 2L, id: "2850E7A4F92D3AC3", item: { id: "pneumaticcraft:refinery_output" }, type: "item" }
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6024F07D67001833"
+			]
+			id: "4829AB10ED54A06D"
+			rewards: [
+				{ id: "38773667D8914DB7", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ count: 1L, id: "45FAEB0B2B57995C", item: { id: "pneumaticcraft:thermopneumatic_processing_plant" }, type: "item" }
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4829AB10ED54A06D"
+			]
+			id: "2D5878004C2B3F16"
+			rewards: [
+				{ id: "32B13415C6D6713A", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ count: 8L, id: "425E75DEFDAA561A", item: { id: "pneumaticcraft:plastic" }, type: "item" }
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2D5878004C2B3F16"
+			]
+			id: "11CF66FCEA5B6571"
+			rewards: [
+				{ id: "19A1DF0D91050D62", table_id: 6423244003716412154L, type: "loot" }
+				{ id: "57DB72786F11031C", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ count: 1L, id: "1FA29E19249B5ED8", item: { id: "pneumaticcraft:uv_light_box" }, type: "item" }
+				{ count: 2L, id: "58E88389AE11F268", item: { id: "pneumaticcraft:printed_circuit_board" }, type: "item" }
+			]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"11CF66FCEA5B6571"
+			]
+			id: "61B137CE582FF26F"
+			rewards: [
+				{ id: "123E271478BF0467", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ count: 1L, id: "70EDE6A7ED9B8159", item: { id: "pneumaticcraft:assembly_controller" }, type: "item" }
+				{ count: 1L, id: "22E085D89A3CDE93", item: { id: "pneumaticcraft:assembly_platform" }, type: "item" }
+			]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"11CF66FCEA5B6571"
+			]
+			id: "3905A67E9505A795"
+			rewards: [
+				{ id: "2BB75EA492662ACC", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ count: 1L, id: "75A47CBB8CC9131F", item: { id: "pneumaticcraft:programmer" }, type: "item" }
+			]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3905A67E9505A795"
+			]
+			id: "29D0506398277633"
+			rewards: [
+				{ id: "49D6CD0FEF638DC4", table_id: 6176969357897702812L, type: "loot" }
+				{ id: "60077A41110944B9", type: "xp", xp: 500 }
+			]
+			shape: "gear"
+			size: 1.75d
+			tasks: [
+				{ count: 1L, id: "7918B02A577BE66F", item: { id: "pneumaticcraft:drone" }, type: "item" }
+			]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"58FD7F499321770F"
+			]
+			id: "1BD50E76E8122BDD"
+			optional: true
+			rewards: [
+				{ id: "1CD879DF63252770", type: "xp", xp: 200 }
+			]
+			tasks: [
+				{ count: 1L, id: "39FD60149715D4BC", item: { id: "pneumaticcraft:pneumatic_helmet" }, type: "item" }
+			]
+			x: 8.0d
+			y: -2.0d
+		}
+	]
+}

@@ -6,7 +6,7 @@
 	icon: { id: "industrialforegoing:machine_frame_pity" }
 	id: "2D2A65F3F3299525"
 	images: [ ]
-	order_index: 6
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{

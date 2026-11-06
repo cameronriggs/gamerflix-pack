@@ -6,7 +6,7 @@
 	icon: { id: "ars_nouveau:novice_spell_book" }
 	id: "1F23A13EC3D73DDE"
 	images: [ ]
-	order_index: 8
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{

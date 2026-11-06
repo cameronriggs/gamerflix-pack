@@ -6,7 +6,7 @@
 	icon: { id: "minecolonies:blockhuttownhall" }
 	id: "17E7B3B7C04E8B12"
 	images: [ ]
-	order_index: 10
+	order_index: 13
 	quest_links: [ ]
 	quests: [
 		{
