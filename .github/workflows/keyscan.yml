@@ -3,6 +3,8 @@ name: Key scan
 on:
   push:
     branches: [keybind-scan]
+permissions:
+  contents: write
 jobs:
   scan:
     runs-on: ubuntu-latest
@@ -15,5 +17,7 @@ jobs:
       - run: curl -sSL -o vineflower.jar https://repo1.maven.org/maven2/org/vineflower/vineflower/1.10.1/vineflower-1.10.1.jar
       - run: python3 tools/keyscan.py
       - run: wc -l keyscan.txt; grep '^!!' keyscan.txt || true
-      - uses: actions/upload-artifact@v4
-        with: { name: keyscan, path: keyscan.txt }
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f keyscan.txt && git commit -m "Key scan output [skip ci]" && git push
