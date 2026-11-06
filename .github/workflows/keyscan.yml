@@ -1,0 +1,19 @@
+# Temporary: reads the default keybinds out of the pack's client mod jars. Not merged to main.
+name: Key scan
+on:
+  push:
+    branches: [keybind-scan]
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with: { distribution: temurin, java-version: '21' }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: curl -sSL -o vineflower.jar https://repo1.maven.org/maven2/org/vineflower/vineflower/1.10.1/vineflower-1.10.1.jar
+      - run: python3 tools/keyscan.py
+      - run: wc -l keyscan.txt; grep '^!!' keyscan.txt || true
+      - uses: actions/upload-artifact@v4
+        with: { name: keyscan, path: keyscan.txt }
