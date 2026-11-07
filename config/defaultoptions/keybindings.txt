@@ -15,3 +15,5 @@ key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 key_accessories.key.open_accessories_screen:key.keyboard.unknown
 key_key.journeymap.create_waypoint:key.keyboard.unknown
 key_key.trashslot.toggle:key.keyboard.unknown
+key_key.draconicevolution.place_item:key.keyboard.unknown
+key_pneumaticcraft.helmet.debugging.drone:key.keyboard.unknown

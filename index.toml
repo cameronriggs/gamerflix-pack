@@ -20,7 +20,7 @@ hash = "4483166ddf322af51c654033b808053f8d6ab6bad89e155c89555fc728d0e58d"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "a20a892c548eba26c9952bb6d669e6d677e9b185575de7317e6a54893770bd9b"
+hash = "13e910cb97ef3226a95823e436c9d6fb922e461fb3611ac2be6791dbc98e4139"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
