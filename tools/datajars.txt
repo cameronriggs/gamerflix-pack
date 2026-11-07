@@ -1,0 +1,5 @@
+https://cdn.modrinth.com/data/s91ifBqW/versions/QyDbmh7J/fintastic-1.21.1-3.3.jar
+https://cdn.modrinth.com/data/yv9f5EAG/versions/4HsWNhJz/hapi-neoforge-1.21.1-1.1.3.jar
+https://cdn.modrinth.com/data/HH4FjUqN/versions/jdOU7Pzu/hybrid_aquatic-neoforge-1.21.1-1.7.4.jar
+https://cdn.modrinth.com/data/vI1QKJro/versions/qkTeGOXY/netherdepthsupgrade-3.3-1.21.1-NeoForge.jar
+https://cdn.modrinth.com/data/Aokk3vZE/versions/Fnaq5Ldl/betterfishtanks-1.4.1-1.21.1-neoforge.jar
