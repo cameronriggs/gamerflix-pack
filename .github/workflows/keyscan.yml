@@ -1,4 +1,4 @@
-# Temporary: decompiles the fish mods' entity classes. Not merged to main.
+# Temporary: boot-tests a dedicated server with the staged pack. Not merged to main.
 name: Key scan
 on:
   push:
@@ -6,18 +6,49 @@ on:
 permissions:
   contents: write
 jobs:
-  scan:
+  boot:
     runs-on: ubuntu-latest
     timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
+        with: { ref: staged-fish, path: pack }
+      - uses: actions/checkout@v4
+        with: { path: self }
       - uses: actions/setup-java@v4
         with: { distribution: temurin, java-version: '21' }
-      - run: curl -sSL -o vineflower.jar https://repo1.maven.org/maven2/org/vineflower/vineflower/1.10.1/vineflower-1.10.1.jar
-      - run: python3 tools/entscan.py && gzip -f entscan.txt && ls -la entscan.txt.gz
+      - name: Install NeoForge server
+        run: |
+          mkdir srv && cd srv
+          curl -sSL -o nf.jar https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.265/neoforge-21.1.265-installer.jar
+          java -jar nf.jar --installServer > /dev/null
+          echo eula=true > eula.txt
+          printf 'online-mode=false\nlevel-name=world\nspawn-protection=0\n' > server.properties
+      - name: Install pack (server side)
+        run: |
+          (cd pack && python3 -m http.server 8000 >/dev/null 2>&1 &)
+          sleep 2
+          cd srv
+          curl -sSL -o bootstrap.jar https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar
+          java -jar bootstrap.jar -g -s server http://localhost:8000/pack.toml 2>&1 | tail -20
+          ls mods | wc -l; ls mods | grep -i "fishtank\|fintastic\|hybrid\|netherdepths" || true
+      - name: Boot
+        run: |
+          cd srv
+          echo "-Xmx8G" > user_jvm_args.txt
+          (timeout 900 ./run.sh nogui > boot.log 2>&1; echo "exit $?" >> boot.log) &
+          for i in $(seq 1 180); do
+            if grep -q 'Done (' boot.log; then echo BOOTED; break; fi
+            if grep -q '^exit' boot.log; then echo EXITED; break; fi
+            sleep 5
+          done
+          grep -q 'Done (' boot.log && { sleep 20; pkill -f neoforge || true; sleep 10; }
+          cp boot.log ../self/boot.log
+          ls crash-reports 2>/dev/null && cp crash-reports/* ../self/ 2>/dev/null || true
       - name: Commit result
         run: |
+          cd self
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -f entscan.txt.gz
-          git commit -m "Item scan output [skip ci]" && git push
+          gzip -kf boot.log
+          git add -f boot.log.gz crash-*.txt 2>/dev/null || git add -f boot.log.gz
+          git commit -m "Boot test output [skip ci]" && git push
