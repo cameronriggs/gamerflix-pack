@@ -15,6 +15,10 @@ hash = "c25c2f4beaff24b248686a7dd161912660e3ceb3f2a9203b9568896180b34ea0"
 preserve = true
 
 [[files]]
+file = "config/betterfishtanks-common.toml"
+hash = "4483166ddf322af51c654033b808053f8d6ab6bad89e155c89555fc728d0e58d"
+
+[[files]]
 file = "config/defaultoptions/keybindings.txt"
 hash = "a20a892c548eba26c9952bb6d669e6d677e9b185575de7317e6a54893770bd9b"
 

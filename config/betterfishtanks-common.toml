@@ -1,0 +1,76 @@
+[general]
+	#Require food for fish survival.
+	requireFood = true
+	#Internal bookkeeping. Records which one-time config updates have already been applied to this file, so none of them runs twice.
+	#Leave this alone. Lowering it lets an old update run again.
+	# Default: 0
+	# Range: 0 ~ 1000
+	configVersion = 2
+
+[mob]
+	#Set to true to allow Drowned to be captured with the Fish Bag.
+	allowDrownedCapture = false
+	#Set to true to allow Guardians and Elder Guardians to be captured with the Fish Bag.
+	allowGuardianCapture = false
+	#Set to true to allow whales to be captured with the Fish Bag.
+	#WARNING: large fish like whales may eat smaller fish in the same tank.
+	allowWhaleCapture = false
+	#Set to false to prevent fish from hunting or hurting each other inside the fishtank.
+	allowFishHunting = true
+	#Set to false to prevent pufferfish from puffing up while in a fishtank.
+	allowPufferfishPuffing = true
+	#Custom entity types or tags that can be caught with the Fish Bag.
+	#Format for entities: "modid:entity_id" (e.g. "examplemod:example_fish")
+	#Format for tags: "#modid:tag_id" (e.g. "#minecraft:fishes")
+	#A datapack tag is usually easier: add entities to betterfishtanks:catchable_fish instead.
+	customCatchableEntities = ["#hapi:all_fish", "#hapi:bait_fish", "#hapi:all_crustaceans", "#hapi:all_cephalopods", "#hapi:all_jellyfish", "#hapi:all_critters", "hybrid_aquatic:pearlfish", "hybrid_aquatic:pupfish", "hybrid_aquatic:rockfish", "hybrid_aquatic:sea_bass", "netherdepthsupgrade:blazefish", "netherdepthsupgrade:bonefish", "netherdepthsupgrade:eyeball_fish", "netherdepthsupgrade:fortressgrouper", "netherdepthsupgrade:glowdine", "netherdepthsupgrade:lava_pufferfish", "netherdepthsupgrade:magmacubefish", "netherdepthsupgrade:obsidianfish", "netherdepthsupgrade:searing_cod", "netherdepthsupgrade:soulsucker", "netherdepthsupgrade:wither_bonefish"]
+	#Custom entities that can be caught with the Fish Bag, matched by name.
+	#Format: the entity's name or part of it (e.g. "shark", "turtle")
+	#Matches if the registry name or display name contains this string.
+	customCatchableEntitiesByString = []
+	#Entities that should NOT be added to a fishtank or collected with the Fish Bag, even if they are in the catchable list.
+	#Format: the entity's name or part of it (e.g. "shark", "turtle")
+	blacklistedEntitiesByName = []
+	#Whether a Random Fish Bag may contain fish added by other mods.
+	#false keeps the bag to Minecraft's own fish. Modded fish stay catchable by hand with a Fish Bag either way.
+	randomBagAllowModdedFish = true
+	#Fish a Random Fish Bag must never contain.
+	#Format: "modid:entity_id" (e.g. "minecraft:pufferfish"),
+	#        "#modid:tag_id" for a whole tag, or
+	#        part of a name (e.g. "shark") to match any id containing it.
+	#These stay catchable by hand; they are only kept out of the bag.
+	randomBagBlacklist = ["netherdepthsupgrade:blazefish", "netherdepthsupgrade:bonefish", "netherdepthsupgrade:eyeball_fish", "netherdepthsupgrade:fortressgrouper", "netherdepthsupgrade:glowdine", "netherdepthsupgrade:lava_pufferfish", "netherdepthsupgrade:magmacubefish", "netherdepthsupgrade:obsidianfish", "netherdepthsupgrade:searing_cod", "netherdepthsupgrade:soulsucker", "netherdepthsupgrade:wither_bonefish"]
+
+[eggLoot]
+	#What opening each kind of fish egg can give.
+	#
+	#Format: "modid:item" or "modid:item min-max" — e.g. "minecraft:diamond" or
+	#"minecraft:cooked_cod 1-3". One entry per line; each is equally likely.
+	#
+	#An unreadable entry is skipped with a warning naming it; the rest still work.
+	#
+	#Common eggs. Built in: bone meal x1-2, string x1-2.
+	commonEggLoot = []
+	#Uncommon eggs. Built in: cod x1-2, salmon x1-2, bone meal x1-3.
+	uncommonEggLoot = []
+	#Rare eggs. Built in: cooked cod x1-2, cooked salmon x1-2, nautilus shell,
+	#prismarine shard x1-2.
+	rareEggLoot = []
+	#Epic eggs. Built in: cooked cod x1-3, cooked salmon x1-3,
+	#nautilus shell x1-2, prismarine crystals x1-2.
+	epicEggLoot = []
+	#Exotic eggs. Built in: nautilus shell x1-3, prismarine crystals x1-3,
+	#heart of the sea, diamond.
+	exoticEggLoot = []
+	#Legendary eggs. Built in: heart of the sea x1-2, diamond x1-2,
+	#emerald x1-2, and a random enchanted book.
+	#⚠ Setting this replaces the enchanted book too — add your own if you want one.
+	legendaryEggLoot = []
+
+[modpackCompat]
+	#Automatically deactivates fishtanks and aquariums from other mods by removing their crafting recipes.
+	#Off by default. Set to true to deactivate other mods' fishtanks and aquariums.
+	removeOtherModFishtanks = false
+	#Keywords used to detect fishtank/aquarium items from other mods.
+	#An item is deactivated if its registry path contains one of these keywords (this mod and vanilla are never affected).
+	otherModFishtankKeywords = ["fishtank", "fish_tank", "aquarium", "fishbowl", "fish_bowl"]
