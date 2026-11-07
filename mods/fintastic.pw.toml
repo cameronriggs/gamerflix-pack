@@ -1,0 +1,13 @@
+name = "Fintastic"
+filename = "fintastic-1.21.1-3.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/s91ifBqW/versions/QyDbmh7J/fintastic-1.21.1-3.3.jar"
+hash-format = "sha512"
+hash = "f441f4153022fb9f5c4b211c15ea393e7bb61e98b9acf9a822f4ce788e40fe84d133a029e2ef7e5e915c7d4233384b7f240e2e9e0439cd87f2b0026c00ba269c"
+
+[update]
+[update.modrinth]
+mod-id = "s91ifBqW"
+version = "QyDbmh7J"
