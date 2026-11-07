@@ -1,0 +1,16 @@
+fishbowl
+fishing_hat
+lotus_root
+dwarf_frogspawn
+arapaima_fishnet
+coelacanth_fishnet
+fishnet
+brine_bucket
+chimney_base
+chimney_middle
+fishing_net
+ominous_conch
+template_anemone
+template_crab_pot
+template_message_in_a_bottle
+template_plushie

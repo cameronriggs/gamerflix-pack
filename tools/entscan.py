@@ -1,6 +1,7 @@
 # Decompiles the fish mods and writes each class's declaration line plus entity registration and category lines to entscan.txt.
 import os, subprocess, glob, urllib.request, zipfile, re
 out = open("entscan.txt", "w")
+names = [n.strip().lower() for n in open("tools/itemnames.txt").read().split()]
 for u in open("tools/entjars.txt").read().split():
     name = u.rsplit("/", 1)[-1]
     os.makedirs("dl", exist_ok=True); p = "dl/" + name
@@ -20,8 +21,14 @@ for u in open("tools/entjars.txt").read().split():
         src = open(f, errors="replace").read()
         for l in src.splitlines():
             s = l.strip()
-            if re.match(r"(public |abstract |final |private |protected |static )*(class|interface|record|enum) ", s) or "MobCategory." in s or "EntityType.Builder" in s or "fireImmune" in s or "isMonster" in s or re.search(r"\b(Monster|Enemy|Bucketable)\b", s):
+            if False and ( "MobCategory." in s or "EntityType.Builder" in s or "fireImmune" in s or "isMonster" in s or re.search(r"\b(Monster|Enemy|Bucketable)\b", s)):
                 out.write(f"{rel}: {s[:300]}\n")
-        if re.search(r"(Registries\.ENTITY_TYPE|EntityType\.Builder)", src) or "Entities" in rel.split("/")[-1]:
+        low = src.lower()
+        for i, l in enumerate(src.splitlines()):
+            ll = l.lower()
+            for nm in names:
+                if nm in ll or nm.replace("_", "") in ll.replace("_", ""):
+                    out.write(f"ITEMREF {nm} {rel}:{i}: {l.strip()[:300]}\n"); break
+        if False and re.search(r"(Registries\.ENTITY_TYPE|EntityType\.Builder)", src) or "Entities" in rel.split("/")[-1]:
             out.write(f"\n===== FULL {rel}\n" + "\n".join(x for x in src.splitlines() if not x.startswith("import ")) + "\n")
 out.close()
