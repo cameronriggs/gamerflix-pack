@@ -5,3 +5,5 @@ README.md
 instance/
 .gitattributes
 add-mods.txt
+.claude/
+CLAUDE.md
