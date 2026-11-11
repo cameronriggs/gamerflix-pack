@@ -1,0 +1,202 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aquarium"
+	group: ""
+	icon: { id: "minecraft:tropical_fish_bucket" }
+	id: "6058AA18FFF6E199"
+	images: [ ]
+	order_index: 15
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"53746E014F82C328"
+			]
+			id: "78DE91A7C9597E7D"
+			rewards: [
+				{ id: "1FCB345CC6C6CA59", type: "xp", xp: 25 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ count: 1L, id: "62D5FC08AE1C52FB", item: { id: "minecraft:fishing_rod" }, type: "item" }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"78DE91A7C9597E7D"
+				"274FD09F0089B0CE"
+			]
+			id: "41960C563A06AE19"
+			rewards: [
+				{ id: "12D36F58EB99BB06", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ count: 1L, id: "490BFD0C1B50F713", item: { id: "hybrid_aquatic:barbed_hook" }, type: "item" }
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"78DE91A7C9597E7D"
+			]
+			id: "3AA76AECD1900F6F"
+			rewards: [
+				{ id: "3957D1002E42E5D2", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ count: 1L, id: "2F23893D37559DF0", item: { id: "hybrid_aquatic:fish_food" }, type: "item" }
+				{ count: 1L, id: "2EE4DB6BBD549915", item: { id: "fintastic:regular_feed" }, type: "item" }
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"78DE91A7C9597E7D"
+				"274FD09F0089B0CE"
+			]
+			id: "179F3E5FA2F58A4E"
+			rewards: [
+				{ id: "5D773E54BBDA7B37", table_id: 6423244003716412154L, type: "loot" }
+				{ id: "12411D4C2846C770", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ count: 1L, id: "7F0AC4734179984E", item: { id: "hybrid_aquatic:diving_helmet" }, type: "item" }
+				{ count: 1L, id: "2DA25FA793030D75", item: { id: "hybrid_aquatic:diving_suit" }, type: "item" }
+				{ count: 1L, id: "3CEE0744F452D87B", item: { id: "hybrid_aquatic:diving_leggings" }, type: "item" }
+				{ count: 1L, id: "5123AD77B2F7DF91", item: { id: "hybrid_aquatic:diving_boots" }, type: "item" }
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"179F3E5FA2F58A4E"
+			]
+			id: "128431EC356B4FF3"
+			rewards: [
+				{ id: "7303BEAEB8B9A300", table_id: 6423244003716412154L, type: "loot" }
+				{ id: "594C5B188E7F6690", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ count: 1L, id: "3034C985E80825E2", item: { id: "hybrid_aquatic:shark_tooth" }, type: "item" }
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"41960C563A06AE19"
+			]
+			id: "5C3EE3D34C80408A"
+			rewards: [
+				{ id: "12FD3D8C24544E5C", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ count: 1L, id: "2C1F9662F026D89D", item: { id: "fintastic:fishnet" }, type: "item" }
+			]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3AA76AECD1900F6F"
+			]
+			id: "12770FD638BBA786"
+			optional: true
+			rewards: [
+				{ id: "5802190D5E643709", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ count: 8L, id: "1788C510CBF318A5", item: { id: "fintastic:aquarium_glass" }, type: "item" }
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5C3EE3D34C80408A"
+				"3AA76AECD1900F6F"
+			]
+			id: "30032FDF8399CCF9"
+			rewards: [
+				{ id: "117EA8C73A523770", table_id: 6423244003716412154L, type: "loot" }
+				{ id: "41AAE4362C9B9FA8", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ id: "29B32BE4A9BC2660", type: "checkmark" }
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"41960C563A06AE19"
+				"75BA88591F63F534"
+			]
+			id: "7EA7CC200485DD7E"
+			rewards: [
+				{ id: "37EEE582EC7A3B43", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ count: 1L, id: "5ECF39FD0FA385A4", item: { id: "netherdepthsupgrade:lava_fishing_rod" }, type: "item" }
+			]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"7EA7CC200485DD7E"
+			]
+			id: "12652699A14D3F9A"
+			rewards: [
+				{ id: "36AC29475E25C2C8", table_id: 6423244003716412154L, type: "loot" }
+				{ id: "4900435EEE11EEF6", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ count: 1L, id: "1290E4A8532D32F5", item: { id: "netherdepthsupgrade:searing_cod" }, type: "item" }
+				{ count: 1L, id: "30F0934327AB31AE", item: { id: "netherdepthsupgrade:obsidianfish" }, type: "item" }
+			]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"12652699A14D3F9A"
+			]
+			id: "407C63B6B7C9EDD9"
+			optional: true
+			rewards: [
+				{ id: "25C5A27A7152E09F", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ count: 1L, id: "420B2AB9B32DDA75", item: { id: "netherdepthsupgrade:soul_sucker_boots" }, type: "item" }
+			]
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"12652699A14D3F9A"
+				"30032FDF8399CCF9"
+			]
+			id: "651E5221C240429D"
+			rewards: [
+				{ id: "59B459A0649E8D72", table_id: 6176969357897702812L, type: "loot" }
+				{ id: "36ED949F6B6E0884", type: "xp", xp: 250 }
+			]
+			shape: "gear"
+			size: 1.75d
+			tasks: [
+				{ id: "436DE87266ED3B90", type: "checkmark" }
+			]
+			x: 8.0d
+			y: -2.5d
+		}
+	]
+}

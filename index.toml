@@ -31,12 +31,16 @@ file = "config/ftbquests/quests/chapters/ae2.snbt"
 hash = "ec38ffcec588ee25c5259da105ce5271b714e2a1612c5175b51aa3ee559368e9"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/aquarium.snbt"
+hash = "76197b8445df4fcc0e8d93d57e11c264deb5564dcbe9133a23782aec9d726264"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/astral.snbt"
 hash = "41da35eb1179bff4c736c8e774bbe5aa6e39173877af5537c67bad0b3c2553df"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "3cb53f1638b12ce6ba5ad7bad9652886a4d4c5e9b77d6556712fc5f9f61ea616"
+hash = "e4e71cf2afa106a5b54662be74cbe8eb635c3f83450dde6c132d201448915b02"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cubits.snbt"
@@ -49,6 +53,10 @@ hash = "f205846d4054607c231c555b87d3cd0613f7e309cd48d8c3c01c3827092af450"
 [[files]]
 file = "config/ftbquests/quests/chapters/industry.snbt"
 hash = "b39790dc9cb0c629c882410507288099d3e4ad559eae90f029983b1295cb9f0c"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/kitchen.snbt"
+hash = "20be7e5e6402709f093fb428c8c8cc99eb3f04e90e54b78413d08597515a195c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/logistics.snbt"
@@ -88,7 +96,7 @@ hash = "eee143070a902486a901afde0408b61db6b6b15079702ccbebab7fdfe091c020"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "d1c77707292cbe9c17e3299f8143a8a1eff581c9ef46c35390eea9f79cb4bc12"
+hash = "e82d40142fc5a84d1f8cf93490352bed32c5a4b7c85669f75b98decabed2dd6d"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/common_crate.snbt"

@@ -427,5 +427,110 @@
 			x: 4.0d
 			y: 4.0d
 		}
+		{
+			dependencies: [
+				"1A355DC907F51396"
+			]
+			id: "3B1D05C4EB4D8C1F"
+			rewards: [
+				{ id: "4C58931FE7EF6F62", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ count: 4L, id: "108AFBA616BEEF68", item: { id: "create_aquatic_ambitions:prismarine_alloy" }, type: "item" }
+			]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"3B1D05C4EB4D8C1F"
+				"1BD484E08BBCEDE6"
+			]
+			id: "541AD95CC007A1A1"
+			rewards: [
+				{ id: "23EA58D2BDED04D0", table_id: 6423244003716412154L, type: "loot" }
+				{ id: "365C3344584EBC0E", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ count: 1L, id: "676671EE62255CA4", item: { id: "create_aquatic_ambitions:mechanical_conduit" }, type: "item" }
+			]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"15622B32B0AAA41A"
+			]
+			id: "578EA8F073223D42"
+			optional: true
+			rewards: [
+				{ id: "147B140E0BFBEA8E", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ count: 1L, id: "1E1C8DBF57C2EFC4", item: { id: "create_dragons_plus:fluid_hatch" }, type: "item" }
+			]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"42804CC10A9299F0"
+			]
+			id: "3A7700ACD8612270"
+			optional: true
+			rewards: [
+				{ id: "51604A36B7ABCA93", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ count: 1L, id: "5A95C9F41CE60F4F", item: { id: "create_dragons_plus:blaze_upgrade_smithing_template" }, type: "item" }
+			]
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"100D00583BDAFD0C"
+			]
+			id: "2FFDB0A8282AB186"
+			optional: true
+			rewards: [
+				{ id: "4B02B47888F6AD8A", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ count: 2L, id: "37A9AA49FE06D3CA", item: { id: "bellsandwhistles:headlight" }, type: "item" }
+			]
+			x: 18.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"100D00583BDAFD0C"
+			]
+			id: "2E594FC6D60573C9"
+			optional: true
+			rewards: [
+				{ id: "5912C928F453FC70", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ count: 8L, id: "1ABF306B728E8B6A", item: { id: "bellsandwhistles:metro_casing" }, type: "item" }
+			]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"100D00583BDAFD0C"
+			]
+			id: "5D990B8CB9F379FB"
+			optional: true
+			rewards: [
+				{ id: "41756823AD75325B", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ count: 8L, id: "21991048D829FC1C", item: { id: "bellsandwhistles:station_platform" }, type: "item" }
+			]
+			x: 18.0d
+			y: 2.0d
+		}
 	]
 }

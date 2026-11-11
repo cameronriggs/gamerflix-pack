@@ -15,6 +15,10 @@
 		"New dimensions, new biomes and ways to get around."
 	]
 	chapter.2E56F66233E564BA.title: "Exploration"
+	chapter.3505C78523F4A30D.chapter_subtitle: [
+		"Cooking for Blockheads. Build a kitchen that shows every meal you can make from what you have."
+	]
+	chapter.3505C78523F4A30D.title: "Kitchen"
 	chapter.3742E9E46D6EA46A.chapter_subtitle: [
 		"Move items and power around: Pipez and Modular Routers."
 	]
@@ -43,6 +47,10 @@
 		"Machines that run on air pressure: pressure chambers, oil, circuits and drones."
 	]
 	chapter.5D5CFBAE8B099591.title: "PneumaticCraft"
+	chapter.6058AA18FFF6E199.chapter_subtitle: [
+		"New fish in the sea and in the Nether, and tanks to keep them in."
+	]
+	chapter.6058AA18FFF6E199.title: "Aquarium"
 	chapter.70AE4B54566C9651.chapter_subtitle: [
 		"Digital storage. Put your whole base in a network you can search and autocraft from."
 	]
@@ -86,10 +94,22 @@
 		"This links Create to Powah, Mekanism and the rest."
 	]
 	quest.12487A76D18BF38C.title: "Electricity"
+	quest.12652699A14D3F9A.quest_desc: [
+		"Fish the Nether's lava seas. Searing Cod and Obsidianfish are two of the catches."
+	]
+	quest.12652699A14D3F9A.title: "Fish From Lava"
 	quest.1270CDF66677BE4C.quest_desc: [
 		"Your first spell book. Wear it in its Curios slot and cast its spells."
 	]
 	quest.1270CDF66677BE4C.title: "Copper Spell Book"
+	quest.12770FD638BBA786.quest_desc: [
+		"Eight glass and a lapis make clear glass for building big fish rooms."
+	]
+	quest.12770FD638BBA786.title: "Aquarium Glass"
+	quest.128431EC356B4FF3.quest_desc: [
+		"Sharks drop teeth. Wear the diving gear and bring a good sword."
+	]
+	quest.128431EC356B4FF3.title: "Shark Tooth"
 	quest.12D9655127465E6F.quest_desc: [
 		"Aquamarine comes from Aquamarine Shale."
 	]
@@ -150,6 +170,10 @@
 		"Right-click a pipe connection with the Wrench to disconnect it."
 	]
 	quest.1753C7DEC698538C.title: "Wrench"
+	quest.179F3E5FA2F58A4E.quest_desc: [
+		"Copper, leather and a glass pane. The full set lets you stay down a lot longer."
+	]
+	quest.179F3E5FA2F58A4E.title: "Diving Gear"
 	quest.17A764FB796B0A26.quest_desc: [
 		"Iron ore or raw iron left in the starlight turns into Starmetal. Smelt it like any ore."
 	]
@@ -230,6 +254,10 @@
 		"Upgrade to a stone pickaxe."
 	]
 	quest.1D3C9B76D509ECFF.title: "Stone Age"
+	quest.1D92DC5671A1CAF4.quest_desc: [
+		"Put it on a Fridge and the kitchen gets free ice and snow for recipes."
+	]
+	quest.1D92DC5671A1CAF4.title: "Ice Unit"
 	quest.1DA836963EDDAB49.quest_desc: [
 		"Charges items with FE. Check JEI for what else it can do."
 	]
@@ -266,6 +294,10 @@
 		"The goggles let you see the Otherworld without eating anything strange."
 	]
 	quest.2070FBCE8AF99593.title: "Otherworld Goggles"
+	quest.20877AD17A5B1396.quest_desc: [
+		"Smelt a Book to get the Cooking for Blockheads recipe book. It shows the food you can make from what is in your inventory."
+	]
+	quest.20877AD17A5B1396.title: "Recipe Book"
 	quest.20F7F8AA1A8CCC3D.quest_desc: [
 		"A Terminal with a crafting grid that pulls from the network."
 		""
@@ -298,6 +330,10 @@
 		"Energy Pipes do the same for Forge Energy. Fluid Pipes and Universal Pipes exist too."
 	]
 	quest.2551022F0D4EC918.title: "Energy Pipes"
+	quest.2674047A5D14DAE6.quest_desc: [
+		"The heart of the kitchen. The Cooking Table uses every kitchen block it touches, so build the rest around it."
+	]
+	quest.2674047A5D14DAE6.title: "Cooking Table"
 	quest.274FD09F0089B0CE.quest_desc: [
 		"Smelt your first iron ingot. Iron opens up almost every mod in the pack, Cubits included."
 	]
@@ -350,6 +386,10 @@
 		"Plastic is the base of circuit boards and drones."
 	]
 	quest.2D5878004C2B3F16.title: "Plastic"
+	quest.2E594FC6D60573C9.quest_desc: [
+		"Metro Casing gives your train a subway look. There is a corrugated kind too."
+	]
+	quest.2E594FC6D60573C9.title: "Metro Casing"
 	quest.2EA8FA71CDE900BD.quest_desc: [
 		"Press Silicon with the Silicon Press."
 	]
@@ -358,6 +398,16 @@
 		"A blaze that enchants items using liquid experience. JEI shows how to set it up."
 	]
 	quest.2EC183BBC336E4C8.title: "Blaze Enchanter"
+	quest.2FFDB0A8282AB186.quest_desc: [
+		"From Bells & Whistles. Put Headlights on the front of your train."
+	]
+	quest.2FFDB0A8282AB186.title: "Headlights"
+	quest.30032FDF8399CCF9.quest_desc: [
+		"Craft a fishtank from Better Fishtanks (JEI shows the recipe), catch a fish with a Fish Bag and let it go in the tank."
+		""
+		"Most fish from Hybrid Aquatic and Fintastic fit. The big ones like sharks don't."
+	]
+	quest.30032FDF8399CCF9.title: "Fish in a Tank"
 	quest.30C4E03AE6A1F963.quest_desc: [
 		"The Infusion Crystal turns 4 essence into 1 of the next tier."
 	]
@@ -370,6 +420,10 @@
 		"Pressure Tubes carry air between machines. Too much pressure and things blow up, so watch the numbers."
 	]
 	quest.31C1C87A1236A0C7.title: "Pressure Tubes"
+	quest.31E13514356908E0.quest_desc: [
+		"Craft the recipe book by itself to get the No Filter Edition. It lists every food, even ones you can't make yet."
+	]
+	quest.31E13514356908E0.title: "No Filter Edition"
 	quest.32D718193E0AD5E0.quest_desc: [
 		"The Spotter flies alongside you, fetches your arrows and warns you about what's behind you."
 	]
@@ -406,6 +460,10 @@
 		"Universal Cables carry power to your machines."
 	]
 	quest.380622BEDAAFE792.title: "Universal Cable"
+	quest.385C1E895D69921C.quest_desc: [
+		"Put it on an Oven so it runs on power from Powah or Mekanism instead of fuel."
+	]
+	quest.385C1E895D69921C.title: "Heating Unit"
 	quest.38ED241A0E93D8FF.quest_desc: [
 		"From Create Enchantment Industry. It takes enchantments off items and turns them into liquid experience."
 	]
@@ -424,6 +482,14 @@
 		"Tertium Essence unlocks the next tier of seeds."
 	]
 	quest.3A13AB67D56C6508.title: "Tertium"
+	quest.3A7700ACD8612270.quest_desc: [
+		"A smithing template that adds working blocks to a Blaze Burner. JEI shows what it can make."
+	]
+	quest.3A7700ACD8612270.title: "Blaze Upgrade"
+	quest.3AA76AECD1900F6F.quest_desc: [
+		"Fish Food is a fish and wheat. Regular Feed is a fish, dried kelp and bone meal. Feed fish to breed them."
+	]
+	quest.3AA76AECD1900F6F.title: "Fish Food"
 	quest.3AB6719819F9A357.quest_desc: [
 		"The Enrichment Chamber turns one ore into two dusts. Smelt the dust for twice the ingots."
 	]
@@ -440,6 +506,10 @@
 		"Marble is underground. You'll need plenty of it for altars."
 	]
 	quest.3B0E020D81CEB3A0.title: "Marble"
+	quest.3B1D05C4EB4D8C1F.quest_desc: [
+		"From Create: Aquatic Ambitions. Prismarine Alloy is the base for its ocean machines. JEI shows the recipe."
+	]
+	quest.3B1D05C4EB4D8C1F.title: "Prismarine Alloy"
 	quest.3B7B9B74D3F49707.quest_desc: [
 		"Stores FE. Place them together to make one bigger battery."
 	]
@@ -468,6 +538,14 @@
 		"Mine Rock Crystal Ore. Crystals hold starlight."
 	]
 	quest.40649857D0BA8AB2.title: "Rock Crystal"
+	quest.407C63B6B7C9EDD9.quest_desc: [
+		"Soul Sucker Leather and string. Walk fast on soul sand and soul soil."
+	]
+	quest.407C63B6B7C9EDD9.title: "Soul Sucker Boots"
+	quest.41960C563A06AE19.quest_desc: [
+		"Six Iron Nuggets. Put it on a fishing rod for better catches."
+	]
+	quest.41960C563A06AE19.title: "Barbed Hook"
 	quest.42164284BD1B44DB.quest_desc: [
 		"The Configurator sets which sides of a machine take items in and push them out."
 	]
@@ -595,10 +673,18 @@
 		"Only half the players online need to sleep to skip the night."
 	]
 	quest.50AA19B1B4E7DC0D.title: "Sleeping Rough"
+	quest.512714BD7FF34966.quest_desc: [
+		"Kitchen Floor links kitchen blocks that don't touch, so the room can be any shape."
+	]
+	quest.512714BD7FF34966.title: "Kitchen Floor"
 	quest.5165428924EC515C.quest_desc: [
 		"A Modular Router does whatever its modules tell it: move items, break blocks, place blocks and more."
 	]
 	quest.5165428924EC515C.title: "Modular Router"
+	quest.51CBC7F5BCB9B0C2.quest_desc: [
+		"Put it on a Fridge to keep the food inside from spoiling, for mods that make food go bad."
+	]
+	quest.51CBC7F5BCB9B0C2.title: "Preservation Chamber"
 	quest.534035A7A0FC6F21.quest_desc: [
 		"The Smelter turns ore into ingots as it comes aboard."
 	]
@@ -611,6 +697,10 @@
 		"Learn new glyphs at the Scribe's Table."
 	]
 	quest.53B61AAB4030A142.title: "Scribe's Table"
+	quest.541AD95CC007A1A1.quest_desc: [
+		"A conduit you power with rotation instead of a ring of prismarine. Great for an underwater base."
+	]
+	quest.541AD95CC007A1A1.title: "Mechanical Conduit"
 	quest.54737504BF84CD68.quest_desc: [
 		"Iron and gold in the Energizing Orb make Energized Steel, the base of every Basic tier block."
 	]
@@ -623,6 +713,10 @@
 		"Precision Mechanisms are made by sequenced assembly: the same part passes through a press and deployers several times. JEI shows every step."
 	]
 	quest.54DC5DF699292CC7.title: "Precision Mechanism"
+	quest.54E864367D38CEAF.quest_desc: [
+		"Toasts bread. That's it, and it's great."
+	]
+	quest.54E864367D38CEAF.title: "Toaster"
 	quest.554B150C1D212231.quest_desc: [
 		"Drills break whatever is in front of them. Put them on a moving contraption to mine as it goes."
 	]
@@ -639,6 +733,10 @@
 		"A powered tool that's a pickaxe, axe and shovel in one. Charge it in an Energy Cube."
 	]
 	quest.5782155BFF7295CF.title: "Atomic Disassembler"
+	quest.578EA8F073223D42.quest_desc: [
+		"From Create: Dragons Plus. Put it on a tank, then right-click it with a bucket or bottle to fill or empty it."
+	]
+	quest.578EA8F073223D42.title: "Fluid Hatch"
 	quest.58FD7F499321770F.quest_desc: [
 		"Makes air faster and handles higher pressure."
 	]
@@ -665,6 +763,10 @@
 		"Basic Control Circuits go into most machines and upgrades."
 	]
 	quest.5A7561BF043040D8.title: "Control Circuit"
+	quest.5C3EE3D34C80408A.quest_desc: [
+		"String, a slime ball and a prismarine shard. Scoop up small fish without hurting them."
+	]
+	quest.5C3EE3D34C80408A.title: "Fishnet"
 	quest.5CC35FBB572195B5.quest_desc: [
 		"Throw an Ender Pearl at a bee nest or beehive."
 	]
@@ -683,6 +785,18 @@
 		"Leave a crafting table and marble in the same kind of starlight pile, and it learns to listen to the stars."
 	]
 	quest.5D5BBE70C671F344.title: "Illuminated Crafting Table"
+	quest.5D990B8CB9F379FB.quest_desc: [
+		"Station Platforms line up with the train doors so you can step right on."
+	]
+	quest.5D990B8CB9F379FB.title: "Station Platform"
+	quest.5DC463B1D510C64F.quest_desc: [
+		"Add two Crafting Tables and two Diamonds to the recipe book. This one can craft the food for you, straight from the book."
+	]
+	quest.5DC463B1D510C64F.title: "Cook's Crafting Book"
+	quest.5DE801EDE68638C3.quest_desc: [
+		"Iron, terracotta and a Water Bucket. Gives the kitchen free water for recipes."
+	]
+	quest.5DE801EDE68638C3.title: "Sink"
 	quest.5F3518BE12C6DCB1.quest_desc: [
 		"Oritech's Basic Generator burns fuel for power."
 	]
@@ -733,6 +847,18 @@
 		"Plastic is the base of every Industrial Foregoing machine."
 	]
 	quest.6338F8CF5C0C0C5D.title: "Plastic"
+	quest.6389C1DF74FD4227.quest_desc: [
+		"A chest and an iron door. Stack two Fridges for a big one. Dye them any color."
+	]
+	quest.6389C1DF74FD4227.title: "Fridge"
+	quest.651E5221C240429D.quest_desc: [
+		"Lava fish need a lava tank. Fill a Better Fishtanks tank with lava instead of water and let a Nether fish go in it."
+	]
+	quest.651E5221C240429D.title: "Lava Tank"
+	quest.655375C1D22CF294.quest_desc: [
+		"Cooks several things at once, and the Cooking Table can use it to make food that needs a furnace."
+	]
+	quest.655375C1D22CF294.title: "Oven"
 	quest.661625CFDD473024.quest_desc: [
 		"Certus Quartz grows on budding certus, found in AE2 meteorites."
 	]
@@ -799,6 +925,12 @@
 		"The Sender Module sends items from the router to the inventory it faces."
 	]
 	quest.6C66AEE3E8B0A68E.title: "Sender Module"
+	quest.6CC390185978D9E4.quest_desc: [
+		"Lead a cow onto a Milk Jar and drop an Anvil on it. Yes, really."
+		""
+		"Now the jar makes milk forever."
+	]
+	quest.6CC390185978D9E4.title: "Cow in a Jar"
 	quest.6E8BB646AAF9C7DD.quest_desc: [
 		"Build a rocket with Stellaris and fly to the Moon. JEI shows the parts."
 	]
@@ -823,6 +955,10 @@
 		"Put a Depot under a Press to flatten ingots into sheets. Iron sheets go into a lot of recipes."
 	]
 	quest.71B18971AB485FA6.title: "Mechanical Press"
+	quest.71C2B201BF410386.quest_desc: [
+		"Racks, a Cutting Board and a Fruit Basket. The kitchen can use what's on them, and they look nice."
+	]
+	quest.71C2B201BF410386.title: "Finishing Touches"
 	quest.71F216CDEFDF1C1F.quest_desc: [
 		"Put a crystal or Aquamarine in the Lightwell and it slowly gives up Liquid Starlight."
 	]
@@ -839,6 +975,10 @@
 		"Gold, printed silicon and redstone make Logic Processors."
 	]
 	quest.7285D023ABB1DDD4.title: "Logic Processor"
+	quest.730824FF695F9AEF.quest_desc: [
+		"Glass, planks and a Milk Bucket. It holds milk for the kitchen to use."
+	]
+	quest.730824FF695F9AEF.title: "Milk Jar"
 	quest.74CB2DC2187913CB.quest_desc: [
 		"Copies enchanted books and written books. JEI shows what it needs."
 	]
@@ -877,6 +1017,10 @@
 		"This mod is still in beta, so keep backups of anything important."
 	]
 	quest.787876EEBF0448E2.title: "Source in ME"
+	quest.78DE91A7C9597E7D.quest_desc: [
+		"Hybrid Aquatic and Fintastic fill the oceans and rivers with new fish, crabs and sharks. Nether Depths Upgrade puts fish in the lava."
+	]
+	quest.78DE91A7C9597E7D.title: "Gone Fishing"
 	quest.7A2739D417BFDA2E.quest_desc: [
 		"Your first spell book. Build spells from glyphs: a form, then effects."
 	]
@@ -887,6 +1031,10 @@
 		"A large cog next to a small one changes the speed."
 	]
 	quest.7AC5D20C1989AD06.title: "Shafts and Cogs"
+	quest.7B81E11C87E25BEB.quest_desc: [
+		"Counters and Cabinets are storage. Anything in them shows up at the Cooking Table."
+	]
+	quest.7B81E11C87E25BEB.title: "Counters and Cabinets"
 	quest.7BCF092F3DCAFF55.quest_desc: [
 		"Build a frame of Stone Bricks and light it with the Catalyst."
 	]
@@ -905,6 +1053,10 @@
 		"Add a Seed Drill to sow bare farmland and a Crop Sprinkler to water and bone meal the field."
 	]
 	quest.7DAC0F5CFB10B973.title: "Farming Cubit"
+	quest.7EA7CC200485DD7E.quest_desc: [
+		"Netherite scrap, blaze rods and chain. Normal rods burn in lava, this one doesn't."
+	]
+	quest.7EA7CC200485DD7E.title: "Lava Fishing Rod"
 	quest.7F1C7762E1939795.quest_desc: [
 		"Mekanism runs on Osmium. Mine Osmium ore and smelt it."
 	]
@@ -919,9 +1071,11 @@
 	task.14EB313834823D04.title: "Enter the Nether"
 	task.1757FDF6B4B9C596.title: "Got somewhere to sleep"
 	task.26F05EB701F39BF3.title: "Defeat the Naga"
+	task.29B32BE4A9BC2660.title: "Put a fish in a Better Fishtanks tank"
 	task.2AAB5798E8EB94E7.title: "Craft any Elemental Focus"
 	task.303772BF98071D65.title: "Make a stone pickaxe"
 	task.3EA44DBE9ED0C237.title: "Enter the End"
+	task.436DE87266ED3B90.title: "Put a lava fish in a lava tank"
 	task.44C6E77446473746.title: "Mine a diamond"
 	task.4999FE72BD00ACDB.title: "Read me"
 	task.4D73F9EA3B56BB71.title: "Enter the Undergarden"
