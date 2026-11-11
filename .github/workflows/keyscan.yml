@@ -21,13 +21,12 @@ jobs:
           sudo apt-get install -y ffmpeg > /dev/null 2>&1 || true
           cd pack
           curl -sSL -o vineflower.jar https://repo1.maven.org/maven2/org/vineflower/vineflower/1.10.1/vineflower-1.10.1.jar
-          python3 ../self/tools/musicscan.py
-          gzip -c musicscan.txt > ../self/musicscan.txt.gz
-          gzip -c musicsrc.txt > ../self/musicsrc.txt.gz
+          python3 ../self/tools/mcscan.py
+          gzip -c mcsrc.txt > ../self/mcsrc.txt.gz
       - name: Commit result
         run: |
           cd self
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -f musicscan.txt.gz musicsrc.txt.gz
-          git commit -m "Music scan output [skip ci]" && git push
+          git add -f mcsrc.txt.gz
+          git commit -m "MineColonies music scan output [skip ci]" && git push
