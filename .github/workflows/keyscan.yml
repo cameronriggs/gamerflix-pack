@@ -11,7 +11,7 @@ jobs:
     timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
-        with: { ref: staged-fish, path: pack }
+        with: { ref: cfb, path: pack }
       - uses: actions/checkout@v4
         with: { path: self }
       - uses: actions/setup-java@v4
@@ -30,7 +30,7 @@ jobs:
           cd srv
           curl -sSL -o bootstrap.jar https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar
           java -jar bootstrap.jar -g -s server http://localhost:8000/pack.toml 2>&1 | tail -20
-          ls mods | wc -l; ls mods | grep -i "fishtank\|fintastic\|hybrid\|netherdepths" || true
+          ls mods | wc -l; ls mods | grep -i 'cooking\|balm' || true
       - name: Boot
         run: |
           cd srv
@@ -44,11 +44,19 @@ jobs:
           grep -q 'Done (' boot.log && { sleep 20; pkill -f neoforge || true; sleep 10; }
           cp boot.log ../self/boot.log
           ls crash-reports 2>/dev/null && cp crash-reports/* ../self/ 2>/dev/null || true
+      - name: Dump mod data
+        run: |
+          cd self
+          curl -sSL -o vineflower.jar https://repo1.maven.org/maven2/org/vineflower/vineflower/1.10.1/vineflower-1.10.1.jar
+          python3 tools/datadump.py
+          python3 tools/jarsrc.py
+          gzip -f jarsrc.txt
+          rm -rf dl cls srcout vineflower.jar
       - name: Commit result
         run: |
           cd self
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           gzip -kf boot.log
-          git add -f boot.log.gz crash-*.txt 2>/dev/null || git add -f boot.log.gz
+          git add -f datadump.txt.gz jarsrc.txt.gz; git add -f boot.log.gz crash-*.txt 2>/dev/null || git add -f boot.log.gz
           git commit -m "Boot test output [skip ci]" && git push
